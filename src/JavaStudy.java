@@ -5,29 +5,50 @@ public class JavaStudy {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Which calculator? (normal/density/pressure/average speed/converter of units/acceleration/weight): ");
         String whichCalculator = scanner.next();
-        int d = 1;
+        int d;
 
         switch (whichCalculator) {
             case "normal" -> {
-                System.out.println("Number of digits being used: ");
-                double numberOfDigits = scanner.nextDouble();
-                int digit = 0;
-                for (int i = 0; i < numberOfDigits; i++) {
-                    System.out.print("Enter digit and operation: ");
-                    digit = scanner.nextInt();
-                    String operation = scanner.next();
-                    if (operation.equals("+")) {
-                        digit += d;
-                    } else if (operation.equals("-")) {
-                        digit -= d;
-                    } else if (operation.equals("*")) {
-                        digit *= d;
-                    } else if (operation.equals("/")) {
-                        digit /= d;
+                System.out.print("Enter the first number: ");
+                double result = scanner.nextDouble();
+
+                while (true) {
+                    System.out.print("Enter an operation (+, -, *, /) or '.' to quit: ");
+                    char operator = scanner.next().charAt(0);
+
+                    if (operator == '.') {
+                        break;
                     }
-                    d = digit;
+
+                    System.out.print("Enter the next number: ");
+                    double number = scanner.nextDouble();
+
+                    switch (operator) {
+                        case '+':
+                            result += number;
+                            break;
+                        case '-':
+                            result -= number;
+                            break;
+                        case '*':
+                            result *= number;
+                            break;
+                        case '/':
+                            if (number != 0) {
+                                result /= number;
+                            } else {
+                                System.out.println("Cannot divide by zero. Try again.");
+                                continue;
+                            }
+                            break;
+                        default:
+                            System.out.println("Invalid operator. Try again.");
+                            continue;
+                    }
+                    System.out.println("Current result: " + result);
                 }
-                System.out.println("Answer: " + digit);
+                System.out.println("Final result: " + result);
+                scanner.close();
             }
 
             case "converter" -> {
