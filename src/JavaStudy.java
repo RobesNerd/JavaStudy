@@ -10,7 +10,7 @@ public class JavaStudy {
         switch (whichCalculator) {
             case "normal" -> {
                 System.out.println("Number of digits being used: ");
-                int numberOfDigits = scanner.nextInt();
+                double numberOfDigits = scanner.nextDouble();
                 int digit = 0;
                 for (int i = 0; i < numberOfDigits; i++) {
                     System.out.print("Enter digit and operation: ");
@@ -30,7 +30,23 @@ public class JavaStudy {
                 System.out.println("Answer: " + digit);
             }
 
-            case "converter" -> System.out.println("Converter functionality not implemented yet.");
+            case "converter" -> {
+                System.out.println("Which unit are you using (distance/weight/time): ");
+                String unit = scanner.next();
+                if (unit.equals("distance")) {
+                    System.out.println("Which unit do you want to convert(mm/cm/m/km): ");
+                    String distance = scanner.next();
+                    if (distance.equals("mm")) {
+                        double mm = scanner.nextDouble();
+                        System.out.print("Which unit to convert(cm/m/km)");
+                        String convert = scanner.next();
+                        if (convert.equals("cm")) {
+                            double converted = mm * 10;
+                            System.out.print(converted + "cm");
+                        }
+                    }
+                }
+            }
 
             case "weight" -> {
                 System.out.println("Give one unit to be found (weight/mass/gravity):\n");
