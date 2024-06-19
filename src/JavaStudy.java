@@ -5,9 +5,30 @@ public class JavaStudy {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Which calculator? (normal/density/pressure/average speed/converter of units/acceleration/weight): ");
         String whichCalculator = scanner.next();
+        int d = 1;
 
         switch (whichCalculator) {
-            case "normal" -> System.out.println("Normal calculator functionality not implemented yet.");
+            case "normal" -> {
+                System.out.println("Number of digits being used: ");
+                int numberOfDigits = scanner.nextInt();
+                int digit = 0;
+                for (int i = 0; i < numberOfDigits; i++) {
+                    System.out.print("Enter digit and operation: ");
+                    digit = scanner.nextInt();
+                    String operation = scanner.next();
+                    if (operation.equals("+")) {
+                        digit += d;
+                    } else if (operation.equals("-")) {
+                        digit -= d;
+                    } else if (operation.equals("*")) {
+                        digit *= d;
+                    } else if (operation.equals("/")) {
+                        digit /= d;
+                    }
+                    d = digit;
+                }
+                System.out.println("Answer: " + digit);
+            }
 
             case "converter" -> System.out.println("Converter functionality not implemented yet.");
 
