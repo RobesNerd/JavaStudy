@@ -41,13 +41,13 @@ public class JavaStudy {
                         System.out.print("Which unit to convert (cm/m/km): ");
                         String convert = scanner.next();
                         if (convert.equals("cm")) {
-                            double converted = mm * 10;
+                            double converted = mm / 10;
                             System.out.print(converted + "cm");
                         } else if (convert.equals("m")) {
-                            double converted = mm * 100;
+                            double converted = mm / 1000;
                             System.out.print(converted + "m");
                         } else if (convert.equals("km")) {
-                            double converted = mm * 1000;
+                            double converted = mm / 1000000;
                             System.out.print(converted + "km");
                         } else {
                             System.out.print("Invalid input");
@@ -58,33 +58,78 @@ public class JavaStudy {
                         System.out.print("Which unit to convert (mm/m/km): ");
                         String convert = scanner.next();
                         if (convert.equals("mm")) {
-                            
+                            double converted = cm * 10;
+                            System.out.print(converted + "mm");
+                        } else if (convert.equals("m")) {
+                            double converted = cm / 100;
+                            System.out.print(converted + "m");
+                        } else if (convert.equals("km")) {
+                            double converted = cm / 100000;
+                            System.out.print(converted + "km");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+
+                    } else if (distance.equals("m")) {
+                        double m = scanner.nextDouble();
+                        System.out.print("Which unit to convert (mm/cm/km): ");
+                        String convert = scanner.next();
+                        if (convert.equals("mm")) {
+                            double converted = m * 1000;
+                            System.out.print(converted + "mm");
+                        } else if (convert.equals("cm")) {
+                            double converted = m * 100;
+                            System.out.print(converted + "cm");
+                        } else if (convert.equals("km")) {
+                            double converted = m / 1000;
+                            System.out.print(converted + "km");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+
+                    } else if (distance.equals("km")) {
+                        double km = scanner.nextDouble();
+                        System.out.print("Which unit to convert (mm/cm/m): ");
+                        String convert = scanner.next();
+                        if (convert.equals("mm")) {
+                            double converted = km * 1000000;
+                            System.out.print(converted + "mm");
+                        } else if (convert.equals("cm")) {
+                            double converted = km * 100000;
+                            System.out.print(converted + "cm");
+                        } else if (convert.equals("m")) {
+                            double converted = km * 1000;
+                            System.out.print(converted + "m");
+                        } else {
+                            System.out.print("Invalid input");
                         }
                     }
 
-
-
-
-
-
-
-                    //NAO TERMINADO EM BAIXO
                 } else if (unit.equals("time")) {
                     System.out.println("Which unit do you want to convert(s/m/h/d/w/y): ");
                     String time = scanner.next();
-                    if (time.equals("mm")) {
-                        double mm = scanner.nextDouble();
-                        System.out.print("Which unit to convert(cm/m/km): ");
+                    if (time.equals("s")) {
+                        double s = scanner.nextDouble();
+                        System.out.print("Which unit to convert(m/h/d/w/ms/y): ");
                         String convert = scanner.next();
-                        if (convert.equals("cm")) {
-                            double converted = mm * 10;
-                            System.out.print(converted + "cm");
-                        } else if (convert.equals("m")) {
-                            double converted = mm * 100;
+                        if (convert.equals("m")) {
+                            double converted = s / 60;
                             System.out.print(converted + "m");
-                        } else if (convert.equals("km")) {
-                            double converted = mm * 1000;
-                            System.out.print(converted + "km");
+                        } else if (convert.equals("h")) {
+                            double converted = s / 3600;
+                            System.out.print(converted + "h");
+                        } else if (convert.equals("d")) {
+                            double converted = s / 86400;
+                            System.out.print(converted + "d");
+                        } else if (convert.equals("w")) {
+                            double converted = s / 604800;
+                            System.out.print(converted + "w (apr.)");
+                        } else if (convert.equals("ms")) {
+                            double converted = s / 262800000;
+                            System.out.print(converted + "ms (apr.)");
+                        } else if (convert.equals("y")) {
+                            double converted = s / 315400000;
+                            System.out.print(converted + "y (apr.)");
                         } else {
                             System.out.print("Invalid input");
                         }
