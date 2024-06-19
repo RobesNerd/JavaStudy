@@ -38,13 +38,59 @@ public class JavaStudy {
                     String distance = scanner.next();
                     if (distance.equals("mm")) {
                         double mm = scanner.nextDouble();
-                        System.out.print("Which unit to convert(cm/m/km)");
+                        System.out.print("Which unit to convert (cm/m/km): ");
                         String convert = scanner.next();
                         if (convert.equals("cm")) {
                             double converted = mm * 10;
                             System.out.print(converted + "cm");
+                        } else if (convert.equals("m")) {
+                            double converted = mm * 100;
+                            System.out.print(converted + "m");
+                        } else if (convert.equals("km")) {
+                            double converted = mm * 1000;
+                            System.out.print(converted + "km");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+
+                    } else if (distance.equals("cm")) {
+                        double cm = scanner.nextDouble();
+                        System.out.print("Which unit to convert (mm/m/km): ");
+                        String convert = scanner.next();
+                        if (convert.equals("mm")) {
+                            
                         }
                     }
+
+
+
+
+
+
+
+                    //NAO TERMINADO EM BAIXO
+                } else if (unit.equals("time")) {
+                    System.out.println("Which unit do you want to convert(s/m/h/d/w/y): ");
+                    String time = scanner.next();
+                    if (time.equals("mm")) {
+                        double mm = scanner.nextDouble();
+                        System.out.print("Which unit to convert(cm/m/km): ");
+                        String convert = scanner.next();
+                        if (convert.equals("cm")) {
+                            double converted = mm * 10;
+                            System.out.print(converted + "cm");
+                        } else if (convert.equals("m")) {
+                            double converted = mm * 100;
+                            System.out.print(converted + "m");
+                        } else if (convert.equals("km")) {
+                            double converted = mm * 1000;
+                            System.out.print(converted + "km");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    }
+                } else if (unit.equals("weight")) {
+
                 }
             }
 
