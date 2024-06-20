@@ -5,7 +5,6 @@ public class JavaStudy {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Which calculator? (normal/density/pressure/average speed/converter of units/acceleration/weight): ");
         String whichCalculator = scanner.next();
-        int d;
 
         switch (whichCalculator) {
             case "normal" -> {
@@ -156,7 +155,95 @@ public class JavaStudy {
                         }
                     }
                 } else if (unit.equals("weight")) {
-
+                    System.out.println("Which unit do you want to convert(g/kg/T): ");
+                    String weight = scanner.next();
+                    if (weight.equals("g")) {
+                        double g = scanner.nextDouble();
+                        System.out.print("Which unit to convert(kg/T): ");
+                        String convert = scanner.next();
+                        if (convert.equals("kg")) {
+                            double converted = g / 1000;
+                            System.out.print(converted + "kg");
+                        } else if (convert.equals("T")) {
+                            double converted = g / 1000000;
+                            System.out.print(converted + "T");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else if (weight.equals("kg")) {
+                        double kg = scanner.nextDouble();
+                        System.out.print("Which unit to convert(g/T): ");
+                        String convert = scanner.next();
+                        if (convert.equals("g")) {
+                            double converted = kg * 1000;
+                            System.out.print(converted + "g");
+                        } else if (convert.equals("T")) {
+                            double converted = kg / 1000;
+                            System.out.print(converted + "T");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else if (weight.equals("T")) {
+                        double T = scanner.nextDouble();
+                        System.out.print("Which unit to convert(g/kg): ");
+                        String convert = scanner.next();
+                        if (convert.equals("g")) {
+                            double converted = T * 1000000;
+                            System.out.print(converted + "g");
+                        } else if (convert.equals("kg")) {
+                            double converted = T * 1000;
+                            System.out.print(converted + "kg");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else {
+                        System.out.print("Invalid input");
+                    }
+                } else if (unit.equals("digital")) {
+                    System.out.print("Which unit do you want to convert(Mb/Gb/Tb): ");
+                    String digital = scanner.next();
+                    if (digital.equals("Mb")) {
+                        double mb = scanner.nextDouble();
+                        System.out.print("Which unit to convert(Gb/Tb): ");
+                        String convert = scanner.next();
+                        if (convert.equals("Gb")) {
+                            double converted = mb / 1000;
+                            System.out.print(converted + "Gb");
+                        } else if (convert.equals("Tb")) {
+                            double converted = mb / 1000000;
+                            System.out.print(converted + "Tb");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else if (digital.equals("Gb")) {
+                        double gb = scanner.nextDouble();
+                        System.out.print("Which unit to convert(Mb/Tb): ");
+                        String convert = scanner.next();
+                        if (convert.equals("Mb")) {
+                            double converted = gb * 1000;
+                            System.out.print(converted + "Gb");
+                        } else if (convert.equals("Tb")) {
+                            double converted = gb / 1000;
+                            System.out.print(converted + "Tb");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else if (digital.equals("Tb")) {
+                        double gb = scanner.nextDouble();
+                        System.out.print("Which unit to convert(Mb/Tb): ");
+                        String convert = scanner.next();
+                        if (convert.equals("Mb")) {
+                            double converted = gb * 1000;
+                            System.out.print(converted + "Gb");
+                        } else if (convert.equals("Tb")) {
+                            double converted = gb / 1000;
+                            System.out.print(converted + "Tb");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else {
+                        System.out.print("Invalid input");
+                    }
                 }
             }
 
@@ -286,7 +373,7 @@ public class JavaStudy {
             }
 
             case "pressure" -> {
-                System.out.print("Which pressure would you like to choose? (normal/hydrostatic)");
+                System.out.print("Which pressure would you like to choose? (normal/water)");
                 String pressureChoice = scanner.next();
                 switch (pressureChoice) {
 
@@ -323,7 +410,7 @@ public class JavaStudy {
                         }
                     }
 
-                    case "hydrostatic" -> {
+                    case "water" -> {
                         System.out.print("Give one unit to be found (pressure/gravity/density/height):\n");
                         String unit = scanner.next();
                         switch (unit) {
