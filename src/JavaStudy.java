@@ -51,7 +51,7 @@ public class JavaStudy {
             }
 
             case "converter" -> {
-                System.out.println("Which unit are you using (distance/weight/time/digital storage/volume): ");
+                System.out.println("Which unit are you using (distance/weight/time/digital storage/volume/tension): ");
                 String unit = scanner.next();
                 if (unit.equals("distance")) {
                     System.out.println("Which unit do you want to convert(mm/cm/m/km): ");
@@ -250,14 +250,14 @@ public class JavaStudy {
                             System.out.print("Which unit to convert? (cm3/m3/km3)");
                             String conversion = scanner.next();
                             if (conversion.equals("cm3")) {
-                                double converted = mm / 10;
+                                double converted = mm / 1000;
                                 System.out.print(converted + "cm3");
                             } else if (conversion.equals("m3")) {
-                                double converted = mm / 1000;
+                                double converted = mm / 1000000000;
                                 System.out.print(converted + "m3");
                             } else if (conversion.equals("km3")) {
-                                double converted = mm / 1000000;
-                                System.out.print(converted + "km3");
+                                double converted = mm / (1000000 * 1000);
+                                System.out.print(converted + "km3  (aprx.)");
                             } else {
                                 System.out.print("Invalid Input");
                             }
@@ -266,14 +266,14 @@ public class JavaStudy {
                             System.out.print("Which unit to convert? (mm3/m3/km3)");
                             String conversion = scanner.next();
                             if (conversion.equals("mm3")) {
-                                double converted = cm * 10;
+                                double converted = cm * 1000;
                                 System.out.print(converted + "mm3");
                             } else if (conversion.equals("m3")) {
-                                double converted = cm / 100;
+                                double converted = cm / 1000000;
                                 System.out.print(converted + "m3");
                             } else if (conversion.equals("km3")) {
-                                double converted = cm / 100000;
-                                System.out.print(converted + "km3");
+                                double converted = cm / 1000000000;
+                                System.out.print(converted + "km3  (aprx.)");
                             } else {
                                 System.out.print("Invalid Input");
                             }
@@ -282,29 +282,29 @@ public class JavaStudy {
                             System.out.print("Which unit to convert? (mm3/cm3/km3)");
                             String conversion = scanner.next();
                             if (conversion.equals("mm3")) {
-                                double converted = m * 1000;
+                                double converted = m * 1000000000;
                                 System.out.print(converted + "mm3");
                             } else if (conversion.equals("cm3")) {
-                                double converted = m * 100;
+                                double converted = m * 1000000;
                                 System.out.print(converted + "cm3");
                             } else if (conversion.equals("km3")) {
-                                double converted = m / 1000;
+                                double converted = m / 1000000000;
                                 System.out.print(converted + "km3");
                             } else {
                                 System.out.print("Invalid Input");
                             }
-                        } else if (convert.equals("m3")) {
+                        } else if (convert.equals("km3")) {
                             double km = scanner.nextDouble();
                             System.out.print("Which unit to convert? (mm3/cm3/m3)");
                             String conversion = scanner.next();
                             if (conversion.equals("mm3")) {
-                                double converted = km * 1000000;
-                                System.out.print(converted + "mm3");
+                                double converted = km * 1000000000;
+                                System.out.print(converted + "mm3 (aprx.)");
                             } else if (conversion.equals("cm3")) {
-                                double converted = km * 100000;
-                                System.out.print(converted + "cm3");
+                                double converted = km * 1000000000;
+                                System.out.print(converted + "cm3 (aprx.)");
                             } else if (conversion.equals("m3")) {
-                                double converted = km * 1000;
+                                double converted = km * 1000000000;
                                 System.out.print(converted + "m3");
                             } else {
                                 System.out.print("Invalid Input");
@@ -312,10 +312,10 @@ public class JavaStudy {
                         } else {
                             System.out.print("Invalid Input");
                         }
-                    } else {
-                        System.out.print("Invalid Input");
-                    }
+                    } else if (unit.equals("energy")) {
+                        System.out.print();
                 }
+            }
 
             case "weight" -> {
                 System.out.println("Give one unit to be found (weight/mass/gravity):\n");
@@ -521,11 +521,44 @@ public class JavaStudy {
                                 System.out.println("Density: " + density + "kg/m3");
                             }
                         }
+                    } case "tension" -> {
+                        System.out.print("Choose a unit to be found (tension/mass/gravity/acceleration)");
+                        String unit = scanner.next();
+                        if (unit.equals("tension")) {
+                            System.out.print("Which are the units for mass, gravity and acceleration?");
+                            double mass = scanner.nextDouble();
+                            double gravity = scanner.nextDouble();
+                            double acceleration = scanner.nextDouble();
+                            double tension = mass * (gravity + acceleration);
+                            System.out.print("Tension: " + tension + "N");
+                        } else if (unit.equals("mass")) {
+                            System.out.print("Which are the units for tension, gravity and acceleration?");
+                            double tension = scanner.nextDouble();
+                            double gravity = scanner.nextDouble();
+                            double acceleration = scanner.nextDouble();
+                            double mass = tension / (gravity + acceleration);
+                            System.out.print("Mass: " + mass + "Kg");
+                        } else if (unit.equals("gravity")) {
+                            System.out.print("Which are the units for tension, mass and acceleration?");
+                            double tension = scanner.nextDouble();
+                            double mass = scanner.nextDouble();
+                            double acceleration = scanner.nextDouble();
+                            double gravity = (tension / mass) - acceleration;
+                            System.out.print("Gravity: " + gravity + "m/s2");
+                        } else if (unit.equals("acceleration")) {
+                            System.out.print("Which are the units for tension, mass and gravity?");
+                            double tension = scanner.nextDouble();
+                            double mass = scanner.nextDouble();
+                            double gravity = scanner.nextDouble();
+                            double acceleration = (tension / mass) - gravity;
+                            System.out.print("Acceleration: " + acceleration + "m/s2");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
                     }
                     default -> System.out.println("Invalid input");
                 }
             }
-
             default -> System.out.println("Invalid input");
         }
         scanner.close();
