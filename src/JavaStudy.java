@@ -51,7 +51,7 @@ public class JavaStudy {
             }
 
             case "converter" -> {
-                System.out.println("Which unit are you using (distance/weight/time): ");
+                System.out.println("Which unit are you using (distance/weight/time/digital storage/volume): ");
                 String unit = scanner.next();
                 if (unit.equals("distance")) {
                     System.out.println("Which unit do you want to convert(mm/cm/m/km): ");
@@ -241,11 +241,81 @@ public class JavaStudy {
                         } else {
                             System.out.print("Invalid input");
                         }
+                    }
+                } else if (unit.equals("volume")) {
+                        System.out.print("Which unit you will want to convert? (mm3/cm3/m3/km3)");
+                        String convert = scanner.next();
+                        if (convert.equals("mm3")) {
+                            double mm = scanner.nextDouble();
+                            System.out.print("Which unit to convert? (cm3/m3/km3)");
+                            String conversion = scanner.next();
+                            if (conversion.equals("cm3")) {
+                                double converted = mm / 10;
+                                System.out.print(converted + "cm3");
+                            } else if (conversion.equals("m3")) {
+                                double converted = mm / 1000;
+                                System.out.print(converted + "m3");
+                            } else if (conversion.equals("km3")) {
+                                double converted = mm / 1000000;
+                                System.out.print(converted + "km3");
+                            } else {
+                                System.out.print("Invalid Input");
+                            }
+                        } else if (convert.equals("cm3")) {
+                            double cm = scanner.nextDouble();
+                            System.out.print("Which unit to convert? (mm3/m3/km3)");
+                            String conversion = scanner.next();
+                            if (conversion.equals("mm3")) {
+                                double converted = cm * 10;
+                                System.out.print(converted + "mm3");
+                            } else if (conversion.equals("m3")) {
+                                double converted = cm / 100;
+                                System.out.print(converted + "m3");
+                            } else if (conversion.equals("km3")) {
+                                double converted = cm / 100000;
+                                System.out.print(converted + "km3");
+                            } else {
+                                System.out.print("Invalid Input");
+                            }
+                        } else if (convert.equals("m3")) {
+                            double m = scanner.nextDouble();
+                            System.out.print("Which unit to convert? (mm3/cm3/km3)");
+                            String conversion = scanner.next();
+                            if (conversion.equals("mm3")) {
+                                double converted = m * 1000;
+                                System.out.print(converted + "mm3");
+                            } else if (conversion.equals("cm3")) {
+                                double converted = m * 100;
+                                System.out.print(converted + "cm3");
+                            } else if (conversion.equals("km3")) {
+                                double converted = m / 1000;
+                                System.out.print(converted + "km3");
+                            } else {
+                                System.out.print("Invalid Input");
+                            }
+                        } else if (convert.equals("m3")) {
+                            double km = scanner.nextDouble();
+                            System.out.print("Which unit to convert? (mm3/cm3/m3)");
+                            String conversion = scanner.next();
+                            if (conversion.equals("mm3")) {
+                                double converted = km * 1000000;
+                                System.out.print(converted + "mm3");
+                            } else if (conversion.equals("cm3")) {
+                                double converted = km * 100000;
+                                System.out.print(converted + "cm3");
+                            } else if (conversion.equals("m3")) {
+                                double converted = km * 1000;
+                                System.out.print(converted + "m3");
+                            } else {
+                                System.out.print("Invalid Input");
+                            }
+                        } else {
+                            System.out.print("Invalid Input");
+                        }
                     } else {
-                        System.out.print("Invalid input");
+                        System.out.print("Invalid Input");
                     }
                 }
-            }
 
             case "weight" -> {
                 System.out.println("Give one unit to be found (weight/mass/gravity):\n");
