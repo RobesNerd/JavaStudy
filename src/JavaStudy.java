@@ -313,8 +313,21 @@ public class JavaStudy {
                             System.out.print("Invalid Input");
                         }
                     } else if (unit.equals("energy")) {
-                        System.out.print();
+                        System.out.print("Which unit you will want to convert? (j/kj)");
+                        String convert = scanner.next();
+                        if (convert.equals("j")) {
+                            double j = scanner.nextDouble();
+                            double converted = j / 1000;
+                            System.out.print(converted + "kj");
+                        } else if (convert.equals("kj")) {
+                            double kj = scanner.nextDouble();
+                            double converted = kj * 1000;
+                            System.out.print(converted + "j");
+                        }
+                    } else {
+                        System.out.print("Invalid input");
                 }
+
             }
 
             case "weight" -> {
