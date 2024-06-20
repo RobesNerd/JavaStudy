@@ -3,10 +3,48 @@ import java.util.Scanner;
 public class JavaStudy {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Which calculator? (normal/density/pressure/average speed/converter of units/acceleration/weight): ");
+        System.out.print("Which calculator? (normal/density/pressure/average speed/converter of units/acceleration/weight/potential energy): ");
         String whichCalculator = scanner.next();
 
         switch (whichCalculator) {
+            case "potential energy" -> {
+                System.out.print("Choose a unit to be found (energy/mass/height/gravity)");
+                String unit = scanner.next();
+                if (unit.equals("energy")) {
+                    System.out.print("Which is the mass, height and gravity?");
+                    double mass = scanner.nextDouble();
+                    double height = scanner.nextDouble();
+                    double gravity = scanner.nextDouble();
+                    double energy = mass * height * gravity;
+                    System.out.print("Potential energy: " + energy + "PE");
+                } else if (unit.equals("mass")) {
+                    System.out.print("Which is the p/ energy, height and gravity?");
+                    double energy = scanner.nextDouble();
+                    double height = scanner.nextDouble();
+                    double gravity = scanner.nextDouble();
+                    double mass = energy / (height * gravity);
+                    System.out.print("Mass: " + mass + "Kg");
+                } else if (unit.equals("height")) {
+                    System.out.print("Which is the p/energy, mass and gravity?");
+                    double energy = scanner.nextDouble();
+                    double mass = scanner.nextDouble();
+                    double gravity = scanner.nextDouble();
+                    double height = energy / (mass * gravity);
+                    System.out.print("Height: " + height + "m");
+                } else if (unit.equals("gravity")) {
+                    System.out.print("Which is the p/energy, mass and height?");
+                    double energy = scanner.nextDouble();
+                    double mass = scanner.nextDouble();
+                    double height= scanner.nextDouble();
+                    double gravity = energy / (mass * height);
+                    System.out.print("Gravity: " + gravity + "m/s2");
+                } else {
+                    System.out.print("Invalid input");
+                }
+            }
+
+
+
             case "normal" -> {
                 System.out.print("Enter the first number: ");
                 double result = scanner.nextDouble();
