@@ -43,8 +43,6 @@ public class JavaStudy {
                 }
             }
 
-
-
             case "normal" -> {
                 System.out.print("Enter the first number: ");
                 double result = scanner.nextDouble();
@@ -89,9 +87,88 @@ public class JavaStudy {
             }
 
             case "converter" -> {
-                System.out.println("Which unit are you using (distance/weight/time/digital storage/volume/tension): ");
+                System.out.println("Which unit are you using (frequency/volume of water/speed/distance/weight/time/digital storage/volume/tension): ");
                 String unit = scanner.next();
-                if (unit.equals("distance")) {
+                if (unit.equals("speed")) {
+                    System.out.print("Which unit you want to convert (m/s and km/h): ");
+                    String convert = scanner.next();
+                    if (convert.equals("m/s")) {
+                        double m = scanner.nextDouble();
+                        double converted = m * 3.6;
+                        System.out.print(converted + "km/h");
+                    } else if (convert.equals("km/h")) {
+                        double km = scanner.nextDouble();
+                        double converted = km / 3.6;
+                        System.out.print(converted + "m/s");
+                    } else {
+                        System.out.print("Invalid input");
+                    }
+                } else if (unit.equals("frequency")) {
+                    System.out.print("Which unit you want to convert (Hz/Mz/Gz): ");
+                    String convert = scanner.next();
+                    if (convert.equals("Hz")) {
+                        System.out.print("Which unit to convert (Mz/Gz): ");
+                        String choice = scanner.next();
+                        if (choice.equals("Mz")) {
+                            double hz = scanner.nextDouble();
+                            double converted = hz / 1000000;
+                            System.out.print(converted + "Mz");
+                        } else if (choice.equals("Gz")) {
+                            double hz = scanner.nextDouble();
+                            double converted = hz / 1000000000;
+                            System.out.print(converted + "Gz");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else if (convert.equals("Mz")) {
+                        System.out.print("Which unit to convert (Hz/Gz): ");
+                        String choice = scanner.next();
+                        if (choice.equals("Hz")) {
+                            double mz = scanner.nextDouble();
+                            double converted = mz * 1000000;
+                            System.out.print(converted + "Hz");
+                        } else if (choice.equals("Gz")) {
+                            double mz = scanner.nextDouble();
+                            double converted = mz / 1000;
+                            System.out.print(converted + "Gz");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else if (convert.equals("Gz")) {
+                        System.out.print("Which unit to convert (Hz/Gz): ");
+                        String choice = scanner.next();
+                        if (choice.equals("Hz")) {
+                            double gz = scanner.nextDouble();
+                            double converted = gz * 1000000000;
+                            System.out.print(converted + "Hz");
+                        } else if (choice.equals("Mz")) {
+                            double gz = scanner.nextDouble();
+                            double converted = gz * 1000;
+                            System.out.print(converted + "Mz");
+                        } else {
+                            System.out.print("Invalid input");
+                        }
+                    } else {
+                        System.out.print("Invalid input");
+                    }
+
+                } else if (unit.equals("volume of water")) {
+                    System.out.print("Which unit you want to convert (ml/l): ");
+                    String convert = scanner.next();
+                    if (convert.equals("ml")) {
+                        double ml = scanner.nextDouble();
+                        double converted = ml / 1000;
+                        System.out.print(converted + "L");
+                    } else if (convert.equals("l")) {
+                        double l = scanner.nextDouble();
+                        double converted = l * 1000;
+                        System.out.print(converted + "ml");
+                    } else {
+                        System.out.print("Invalid input");
+                    }
+                }
+
+                else if (unit.equals("distance")) {
                     System.out.println("Which unit do you want to convert(mm/cm/m/km): ");
                     String distance = scanner.next();
                     if (distance.equals("mm")) {
@@ -110,7 +187,6 @@ public class JavaStudy {
                         } else {
                             System.out.print("Invalid input");
                         }
-
                     } else if (distance.equals("cm")) {
                         double cm = scanner.nextDouble();
                         System.out.print("Which unit to convert (mm/m/km): ");
@@ -181,13 +257,13 @@ public class JavaStudy {
                             System.out.print(converted + "d");
                         } else if (convert.equals("w")) {
                             double converted = s / 604800;
-                            System.out.print(converted + "w (apr.)");
+                            System.out.print(converted + "w (aprx.)");
                         } else if (convert.equals("ms")) {
                             double converted = s / 262800000;
-                            System.out.print(converted + "ms (apr.)");
+                            System.out.print(converted + "ms (aprx.)");
                         } else if (convert.equals("y")) {
                             double converted = s / 315400000;
-                            System.out.print(converted + "y (apr.)");
+                            System.out.print(converted + "y (aprx.)");
                         } else {
                             System.out.print("Invalid input");
                         }
@@ -267,14 +343,14 @@ public class JavaStudy {
                             System.out.print("Invalid input");
                         }
                     } else if (digital.equals("Tb")) {
-                        double gb = scanner.nextDouble();
+                        double tb = scanner.nextDouble();
                         System.out.print("Which unit to convert(Mb/Tb): ");
                         String convert = scanner.next();
                         if (convert.equals("Mb")) {
-                            double converted = gb * 1000;
+                            double converted = tb * 1000;
                             System.out.print(converted + "Gb");
                         } else if (convert.equals("Tb")) {
-                            double converted = gb / 1000;
+                            double converted = tb / 1000;
                             System.out.print(converted + "Tb");
                         } else {
                             System.out.print("Invalid input");
