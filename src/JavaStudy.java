@@ -2,8 +2,21 @@ import java.util.Scanner;
 
 public class JavaStudy {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
+        String[] Breakfast = {"Fluffy Pancakes", "Eggs Benedict", "French Toast", "Breakfast Burritos", "Smoothie Bowl", "Overnight Oats",
+        "Fruit Smoothie", "Greek Yogurt Parfait", "Avocado Toast", "Quesadilla", "Chia Seed Pudding", "Peanut Butter Banana Toast",
+        "English Muffin Sandwich", "Tacos", "Frittata", "Pita Pocket", "Polenta", "Shakshuka", "Muffins", "Quinoa"};
+        String[] Appetizers = {"Caprese Skewers", "Deviled Eggs", "Spinach Artichoke Dip", "Bruschetta", "Stuffed Mushrooms",
+                "Guacamole", "Shrimp Cocktail", "Baked Brie", "Cucumber Bites", "Mini Meatballs", "Spanakopita", "Stuffed Peppers",
+                "Antipasto Platter", "Mango Salsa", "Crostini with Ricotta and Honey"};
+        String[] Soups = {};
+        String[] Meat = {};
+        String[] Vegetarian = {};
+        String[] Pasta = {};
+        String[] Rice = {};
+        String[] Side = {};
+        String[] Desserts = {};
+        String[] Drinks = {};
         System.out.print("""
                 Choose a recipe:
                 1 - Breakfast
