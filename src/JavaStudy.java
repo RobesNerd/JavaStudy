@@ -9,7 +9,7 @@ public class JavaStudy {
         String[] Appetizers = {"Caprese Skewers", "Deviled Eggs", "Spinach Artichoke Dip", "Bruschetta", "Stuffed Mushrooms",
                 "Guacamole", "Shrimp Cocktail", "Baked Brie", "Cucumber Bites", "Mini Meatballs", "Spanakopita", "Stuffed Peppers",
                 "Antipasto Platter", "Mango Salsa", "Crostini with Ricotta and Honey"};
-        String[] Soups = {};
+        String[] Soups = {"Gazpacho", "Minestrone Soup", "Caesar Salad", "Tomato Basil Soup", "Chicken Tortilla Soup", ""};
         String[] Meat = {};
         String[] Vegetarian = {};
         String[] Pasta = {};
