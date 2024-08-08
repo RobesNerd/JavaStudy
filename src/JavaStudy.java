@@ -9,8 +9,54 @@ public class JavaStudy {
         String[] Appetizers = {"Caprese Skewers", "Deviled Eggs", "Spinach Artichoke Dip", "Bruschetta", "Stuffed Mushrooms",
                 "Guacamole", "Shrimp Cocktail", "Baked Brie", "Cucumber Bites", "Mini Meatballs", "Spanakopita", "Stuffed Peppers",
                 "Antipasto Platter", "Mango Salsa", "Crostini with Ricotta and Honey"};
-        String[] Soups = {"Gazpacho", "Minestrone Soup", "Caesar Salad", "Tomato Basil Soup", "Chicken Tortilla Soup", ""};
-        String[] Meat = {};
+        String[] soups = {
+                "Tomato Basil Soup",
+                "Chicken Noodle Soup",
+                "Butternut Squash Soup",
+                "Minestrone Soup",
+                "French Onion Soup",
+                "Lentil Soup",
+                "Clam Chowder",
+                "Thai Coconut Soup (Tom Kha Gai)",
+                "Broccoli Cheddar Soup",
+                "Gazpacho",
+                "Split Pea Soup",
+                "Carrot Ginger Soup",
+                "Potato Leek Soup",
+                "Miso Soup",
+                "Tortilla Soup",
+                "Caesar Salad",
+                "Greek Salad",
+                "Caprese Salad",
+                "Cobb Salad",
+                "Quinoa Salad",
+                "Kale Salad",
+                "Spinach Strawberry Salad",
+                "Nicoise Salad",
+                "Waldorf Salad",
+                "Chickpea Salad",
+                "Arugula Salad",
+                "Asian Slaw",
+                "Beet Salad",
+                "Panzanella Salad",
+                "Watermelon Feta Salad"};
+        String[] meat = {
+                "Lemon Garlic Shrimp",
+                "Grilled Steak",
+                "Beef Stroganoff",
+                "Pork Tenderloin with Apples",
+                "Roast Chicken",
+                "Chicken Parmesan",
+                "Beef Tacos",
+                "Barbecue Ribs",
+                "Chicken Marsala",
+                "Shepherd's Pie",
+                "Teriyaki Chicken",
+                "Beef Wellington",
+                "Stuffed Pork Chops",
+                "Chicken Cacciatore",
+                "Beef Lasagna"
+        };
         String[] Vegetarian = {};
         String[] Pasta = {};
         String[] Rice = {};
