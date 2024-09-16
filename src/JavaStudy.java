@@ -1,14 +1,19 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class JavaStudy {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
         String[] Breakfast = {"Fluffy Pancakes", "Eggs Benedict", "French Toast", "Breakfast Burritos", "Smoothie Bowl", "Overnight Oats",
         "Fruit Smoothie", "Greek Yogurt Parfait", "Avocado Toast", "Quesadilla", "Chia Seed Pudding", "Peanut Butter Banana Toast",
         "English Muffin Sandwich", "Tacos", "Frittata", "Pita Pocket", "Polenta", "Shakshuka", "Muffins", "Quinoa"};
+
         String[] Appetizers = {"Caprese Skewers", "Deviled Eggs", "Spinach Artichoke Dip", "Bruschetta", "Stuffed Mushrooms",
                 "Guacamole", "Shrimp Cocktail", "Baked Brie", "Cucumber Bites", "Mini Meatballs", "Spanakopita", "Stuffed Peppers",
                 "Antipasto Platter", "Mango Salsa", "Crostini with Ricotta and Honey"};
+
         String[] soups = {
                 "Tomato Basil Soup",
                 "Chicken Noodle Soup",
@@ -57,13 +62,141 @@ public class JavaStudy {
                 "Chicken Cacciatore",
                 "Beef Lasagna"
         };
-        String[] Vegetarian = {};
-        String[] Pasta = {};
-        String[] Rice = {};
-        String[] Side = {};
-        String[] Desserts = {};
-        String[] Drinks = {};
-        System.out.print("""
+        String[] Vegetarian = {
+                "Vegetable stir-fry",
+                "Lentil soup",
+                "Chickpea salad",
+                "Stuffed bell peppers",
+                "Spinach and cheese quesadillas",
+                "Vegetable curry",
+                "Falafel",
+                "Veggie burgers",
+                "Caprese salad",
+                "Veggie pasta",
+                "Hummus with pita and veggies",
+                "Veggie pizza",
+                "Greek salad",
+                "Vegetable soup",
+                "Bean chili",
+                "Grilled cheese and tomato soup",
+                "Ratatouille",
+                "Black bean tacos",
+                "Stuffed mushrooms",
+                "Sweet potato fries"};
+
+        String[] Pasta = {
+                "Spaghetti Bolognese",
+                "Fettuccine Alfredo with chicken",
+                "Penne alla Vodka with pancetta",
+                "Lasagna with ground beef",
+                "Carbonara with bacon",
+                "Beef Stroganoff with egg noodles",
+                "Pesto pasta with sausage",
+                "Spaghetti Carbonara",
+                "Meatball marinara",
+                "Shrimp Scampi",
+                "Rigatoni with sausage and peppers",
+                "Spaghetti with clams",
+                "Beef and mushroom pasta",
+                "Chicken Parmesan pasta",
+                "Turkey and spinach pasta",
+                "Tuna pasta casserole",
+                "Baked Ziti with meat sauce",
+                "Pasta with meat sauce and vegetables",
+                "Pappardelle with ragu",
+                "Tortellini with ham and cream sauce"};
+
+        String[] Rice = {
+                "Fried rice",
+                "Risotto",
+                "Pilaf",
+                "Stuffed bell peppers with rice",
+                "Paella (vegetarian or with seafood)",
+                "Rice pudding",
+                "Quinoa salad",
+                "Tabouleh",
+                "Barley soup",
+                "Stuffed cabbage rolls with rice",
+                "Coconut rice",
+                "Brown rice and vegetable stir-fry",
+                "Biryani (vegetarian or with meat)",
+                "Farro salad",
+                "Black bean and rice bowl",
+                "Lentil and rice stew",
+                "Millet porridge",
+                "Wild rice and mushroom casserole",
+                "Sushi rolls (vegetarian or with seafood)",
+                "Spanish rice"};
+
+        String[] Side = {
+                "Garlic bread" +
+                "Roasted vegetables" +
+                "Mashed potatoes" +
+                "Coleslaw" +
+                "Steamed broccoli" +
+                "French fries" +
+                "Baked beans" +
+                "Corn on the cob" +
+                "Caesar salad" +
+                "Potato salad" +
+                "Sauteed greens (spinach, kale, etc.)" +
+                "Creamed corn" +
+                "Hummus with pita bread" +
+                "Grilled asparagus" +
+                "Rice pilaf" +
+                "Caprese salad" +
+                "Sweet potato wedges" +
+                "Cucumber salad" +
+                "Stuffed mushrooms" +
+                "Deviled eggs"};
+
+        String[] Desserts = {
+                "Chocolate chip cookies" +
+                "Brownies" +
+                "Cheesecake" +
+                "Apple pie" +
+                "Tiramisu" +
+                "Lemon bars" +
+                "Panna cotta" +
+                "Cupcakes" +
+                "Crème brûlée" +
+                "Banana bread" +
+                "Vanilla pudding" +
+                "Fruit tart" +
+                "Ice cream (homemade or churned)" +
+                "Macarons" +
+                "Rice pudding" +
+                "Chocolate mousse" +
+                "Berry cobbler" +
+                "Bread pudding" +
+                "Eclairs" +
+                "Pavlova"};
+
+        String[] Drinks = {
+                "Lemonade" +
+                "Iced tea" +
+                "Smoothies" +
+                "Hot chocolate" +
+                "Coffee" +
+                "Tea" +
+                "Milkshakes" +
+                "Mojitos (non-alcoholic or alcoholic)" +
+                "Fresh fruit juices (orange, apple, etc.)" +
+                "Hot apple cider" +
+                "Iced coffee" +
+                "Green tea iced tea" +
+                "Lemon ginger honey tea" +
+                "Herbal teas" +
+                "Milk (plain or flavored)" +
+                "Berry spritzers" +
+                "Homemade soda (like root beer or ginger ale)" +
+                "Coconut water" +
+                "Fruit-infused water" +
+                "Eggnog"};
+
+        // String choice = Breakfast[random.nextInt(Breakfast.length)];
+
+                System.out.print("""
                 Choose a recipe:
                 1 - Breakfast
                 2 - Appetizers
@@ -79,7 +212,7 @@ public class JavaStudy {
         String recipe = scanner.next();
 
         if (recipe.equals("1")) {
-            System.out.print("Choose between 1 and 5: ");
+            String choice = Breakfast[random.nextInt(Breakfast.length)];
             int breakfast = scanner.nextInt();
             if (breakfast == 1) {
                 System.out.print("And your food is...Fluffy Pancakes!!!\nHere is how you make Fluffy Pancakes:\n");
