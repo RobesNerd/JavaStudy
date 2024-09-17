@@ -8,6 +8,8 @@ public class JavaStudy {
         Random random = new Random();
 
         String[] pancakes = {"""
+                       Here is how you make Fluffy Pancakes:
+                       
                        Ingredients:
 
                         - 1 1/2 cups all-purpose flour
@@ -38,6 +40,8 @@ public class JavaStudy {
                        """};
 
         String[] eggs = {"""
+                        Here is how you make Eggs Benedict:
+                        
                         Ingredients:
 
                         For the Hollandaise Sauce:
@@ -86,11 +90,129 @@ public class JavaStudy {
                         - Garnish with chopped chives or parsley.
                         """};
 
+        String[] french = {"""
+                            Here is how you make French Toast:
+                            
+                            Ingredients:
+                            
+                            - 4 slices of bread (preferably a day or two old)
+                            - 2 large eggs
+                            - 1/2 cup milk (or cream for a richer flavor)
+                            - 1 teaspoon vanilla extract
+                            - 1/2 teaspoon ground cinnamon
+                            - A pinch of salt
+                            - 2 tablespoons butter (for cooking)
+                            - Maple syrup, powdered sugar, or fresh fruit for serving
+                            
+                            Instructions:
+                            
+                            1. In a shallow bowl or pie dish, whisk together the eggs, milk, vanilla extract, cinnamon, and a pinch of salt until well combined.
+                            2. Dip each slice of bread into the egg mixture, allowing it to soak for about 20-30 seconds on each side. Ensure the bread is fully coated but not overly soggy.
+                            3. Heat a large skillet or griddle over medium heat and add a tablespoon of butter. Allow the butter to melt and coat the pan evenly.
+                            4. Place the soaked bread slices onto the skillet. Cook until the bottoms are golden brown, about 2-3 minutes.
+                            5. Flip the slices and cook the other side until golden brown, about 2-3 minutes more.
+                            
+                            Tips:
+                            
+                            1. Bread Choice: Sturdier bread like brioche, challah, or Texas toast works best as it holds up well when soaked.
+                            2. Stale Bread: Slightly stale bread absorbs the egg mixture better without becoming too mushy.
+                            3. Even Cooking: If making a large batch, keep cooked slices warm in a low oven (about 200°F or 95°C) while you finish cooking the rest.
+                            """};
 
+        String[] burritos = {"""
+                        Here is how you make Breakfast Burritos:
+                        
+                        Ingredients:
+
+                        - 6 large eggs
+                        - 1/4 cup milk
+                        - Salt and pepper, to taste
+                        - 1 tablespoon butter or oil
+                        - 1 cup shredded cheese (cheddar, Monterey Jack, or your favorite)
+                        - 4 large flour tortillas
+                        - 1 cup cooked breakfast sausage or bacon, crumbled
+                        - 1 cup diced potatoes (cooked)
+                        - 1/2 cup diced tomatoes
+                        - 1/2 cup diced onions
+                        - 1/4 cup chopped green onions
+                        - Salsa, sour cream, and avocado (optional, for serving)
+
+                        Instructions:
+
+                        1. In a medium bowl, whisk together the eggs, milk, salt, and pepper until well combined.
+                        2. Heat the butter or oil in a large non-stick skillet over medium heat.
+                        3. Pour in the egg mixture and cook, stirring gently, until the eggs are scrambled and just set. Remove from heat.
+                        4. Warm the tortillas in a dry skillet over medium heat for about 30 seconds on each side, or wrap them in a damp paper towel and microwave for 20-30 seconds to make them pliable.
+                        5. Lay a warm tortilla on a flat surface.
+                        6. Spoon about 1/4 of the scrambled eggs onto the center of the tortilla.
+                        7. Add 1/4 of the cooked breakfast sausage or bacon, cooked potatoes, diced tomatoes, diced onions, and shredded cheese.
+                        8. Fold in the sides of the tortilla, then roll it up from the bottom to encase the filling completely.
+                        9. Repeat with the remaining tortillas and filling.
+
+                        Tips:
+
+                        1. Customization: Feel free to customize the filling with your favorite ingredients such as sautéed bell peppers, black beans, or spinach.
+                        2. Make Ahead: You can make a batch of burritos in advance, wrap them in foil, and freeze. To reheat, unwrap and microwave for 2-3 minutes, or until heated through.
+                        3. Crispy Burritos: For a crispy exterior, lightly toast the wrapped burritos in a skillet over medium heat for a couple of minutes on each side.
+                        """};
+
+        String[] smoothie = {"""
+                        Here is how you make a Smoothie Bowl:
+                        
+                        Ingredients:
+
+                        - 1 cup frozen fruit (e.g., mixed berries, mango, banana)
+                        - 1/2 cup yogurt (plain or flavored)
+                        - 1/2 cup milk or juice (adjust for desired consistency)
+                        - 1 tablespoon honey or another sweetener (optional)
+
+                        For the Toppings:
+
+                        - Fresh fruit slices (e.g., banana, strawberries, kiwi)
+                        - Granola
+                        - Nuts and seeds (e.g., almonds, chia seeds, flaxseeds)
+                        - Coconut flakes
+                        - Drizzle of honey or nut butter
+                        - Any other desired toppings (e.g., cacao nibs, goji berries)
+
+                        Instructions:
+
+                        1. In a blender, combine the frozen fruit, yogurt, milk or juice, and honey (if using).
+                        2. Blend until smooth and thick. The mixture should be thicker than a typical smoothie to support the toppings. If it's too thick to blend, add a little more liquid; if it's too thin, add more frozen fruit or a small amount of ice.
+                        3. Pour the smoothie mixture into a bowl, using a spoon to help spread it evenly.
+                        4. Arrange your chosen toppings on the surface of the smoothie. Be creative and have fun with the presentation!
+
+                        Tips:
+
+                        1. Frozen Fruit: Using frozen fruit helps achieve the thick, creamy consistency that is ideal for smoothie bowls.
+                        2. Balance: Aim for a balance of textures and flavors with your toppings—crunchy granola, creamy nut butter, and fresh fruit slices make a satisfying combination.
+                        3. Customization: Feel free to customize both the smoothie base and the toppings based on your preferences and what's available. Experiment with different fruits, yogurt types, and toppings to find your favorite combinations.
+                        """};
+
+        String[] oats = {"""
+                Here is how you make Overnight Oats:
+                
+                Ingredients:
+                
+                - 1/2 cup (about 45g) rolled oats
+                - 1/2 cup (120ml) milk (you can use dairy or a plant-based alternative like almond, oat, or soy milk)
+                - 2-3 tablespoons yogurt (optional, for creaminess)
+                1 tablespoon chia seeds (optional, for extra fiber and texture)
+                1 teaspoon honey, maple syrup, or another sweetener (optional)
+                Toppings: fresh fruits (like berries, banana slices), nuts, seeds, or nut butter
+                
+                Instructions:
+                
+                1. Combine the Ingredients: In a jar or container, mix the oats, milk, chia seeds (if using), yogurt, and sweetener.
+                2. Stir Well: Make sure everything is well mixed so that the oats can absorb the liquid properly.
+                3. Refrigerate: Cover the jar or container with a lid and place it in the fridge for at least 4-6 hours or overnight.
+                4. Add Toppings: In the morning, give the oats a good stir and add your favorite toppings (fruits, nuts, seeds, etc.).
+                5. Enjoy: You can eat the oats straight from the jar or transfer them to a bowl.
+                """};
 
         String[] Breakfast = {"Fluffy Pancakes", "Eggs Benedict", "French Toast", "Breakfast Burritos", "Smoothie Bowl", "Overnight Oats",
-        "Fruit Smoothie", "Greek Yogurt Parfait", "Avocado Toast", "Quesadilla", "Chia Seed Pudding", "Peanut Butter Banana Toast",
-        "English Muffin Sandwich", "Tacos", "Frittata", "Pita Pocket", "Polenta", "Shakshuka", "Muffins", "Quinoa"};
+                "Fruit Smoothie", "Greek Yogurt Parfait", "Avocado Toast", "Quesadilla", "Chia Seed Pudding", "Peanut Butter Banana Toast",
+                "English Muffin Sandwich", "Tacos", "Frittata", "Pita Pocket", "Polenta", "Shakshuka", "Muffins", "Quinoa"};
 
         String[] Appetizers = {"Caprese Skewers", "Deviled Eggs", "Spinach Artichoke Dip", "Bruschetta", "Stuffed Mushrooms",
                 "Guacamole", "Shrimp Cocktail", "Baked Brie", "Cucumber Bites", "Mini Meatballs", "Spanakopita", "Stuffed Peppers",
@@ -296,108 +418,28 @@ public class JavaStudy {
         if (recipe.equals("1")) {
             String choice = Breakfast[random.nextInt(Breakfast.length)];
             if (choice.equals("Fluffy Pancakes")) {
-                System.out.print("And your food is...Fluffy Pancakes!!!\nHere is how you make Fluffy Pancakes:\n");
+                System.out.print("And your food is...Fluffy Pancakes!!!\n");
                 System.out.print(Arrays.toString(pancakes));
+
             } else if (choice.equals("Eggs Benedict")) {
                 System.out.print("And your food is...Eggs Benedict!!!\n");
-                System.out.print("Here is how you make Eggs Benedict: \n");
+                System.out.print(Arrays.toString(eggs));
 
             } else if (choice.equals("French Toast")) {
-                System.out.print("And your food is... French Toast!!!\nHere is how you make French Toast: \n");
-                System.out.print("""
-                        Ingredients:
+                System.out.print("And your food is... French Toast!!!\n");
+                System.out.print(Arrays.toString(french));
 
-                        - 4 slices of bread (preferably a day or two old)
-                        - 2 large eggs
-                        - 1/2 cup milk (or cream for a richer flavor)
-                        - 1 teaspoon vanilla extract
-                        - 1/2 teaspoon ground cinnamon
-                        - A pinch of salt
-                        - 2 tablespoons butter (for cooking)
-                        - Maple syrup, powdered sugar, or fresh fruit for serving
-
-                        Instructions:
-
-                        1. In a shallow bowl or pie dish, whisk together the eggs, milk, vanilla extract, cinnamon, and a pinch of salt until well combined.
-                        2. Dip each slice of bread into the egg mixture, allowing it to soak for about 20-30 seconds on each side. Ensure the bread is fully coated but not overly soggy.
-                        3. Heat a large skillet or griddle over medium heat and add a tablespoon of butter. Allow the butter to melt and coat the pan evenly.
-                        4. Place the soaked bread slices onto the skillet. Cook until the bottoms are golden brown, about 2-3 minutes.
-                        5. Flip the slices and cook the other side until golden brown, about 2-3 minutes more.
-
-                        Tips:
-
-                        1. Bread Choice: Sturdier bread like brioche, challah, or Texas toast works best as it holds up well when soaked.
-                        2. Stale Bread: Slightly stale bread absorbs the egg mixture better without becoming too mushy.
-                        3. Even Cooking: If making a large batch, keep cooked slices warm in a low oven (about 200°F or 95°C) while you finish cooking the rest.
-                        """);
             } else if (choice.equals("Breakfast Burritos")) {
-                System.out.print("And your food is... Breakfast Burritos!!!\nHere is how you make Breakfast Burritos: \n\n");
-                System.out.print("""
-                        Ingredients:
+                System.out.print("And your food is... Breakfast Burritos!!!\n");
+                System.out.print(Arrays.toString(burritos));
 
-                        - 6 large eggs
-                        - 1/4 cup milk
-                        - Salt and pepper, to taste
-                        - 1 tablespoon butter or oil
-                        - 1 cup shredded cheese (cheddar, Monterey Jack, or your favorite)
-                        - 4 large flour tortillas
-                        - 1 cup cooked breakfast sausage or bacon, crumbled
-                        - 1 cup diced potatoes (cooked)
-                        - 1/2 cup diced tomatoes
-                        - 1/2 cup diced onions
-                        - 1/4 cup chopped green onions
-                        - Salsa, sour cream, and avocado (optional, for serving)
-
-                        Instructions:
-
-                        1. In a medium bowl, whisk together the eggs, milk, salt, and pepper until well combined.
-                        2. Heat the butter or oil in a large non-stick skillet over medium heat.
-                        3. Pour in the egg mixture and cook, stirring gently, until the eggs are scrambled and just set. Remove from heat.
-                        4. Warm the tortillas in a dry skillet over medium heat for about 30 seconds on each side, or wrap them in a damp paper towel and microwave for 20-30 seconds to make them pliable.
-                        5. Lay a warm tortilla on a flat surface.
-                        6. Spoon about 1/4 of the scrambled eggs onto the center of the tortilla.
-                        7. Add 1/4 of the cooked breakfast sausage or bacon, cooked potatoes, diced tomatoes, diced onions, and shredded cheese.
-                        8. Fold in the sides of the tortilla, then roll it up from the bottom to encase the filling completely.
-                        9. Repeat with the remaining tortillas and filling.
-
-                        Tips:
-
-                        1. Customization: Feel free to customize the filling with your favorite ingredients such as sautéed bell peppers, black beans, or spinach.
-                        2. Make Ahead: You can make a batch of burritos in advance, wrap them in foil, and freeze. To reheat, unwrap and microwave for 2-3 minutes, or until heated through.
-                        3. Crispy Burritos: For a crispy exterior, lightly toast the wrapped burritos in a skillet over medium heat for a couple of minutes on each side.
-                        """);
             } else if (choice.equals("Smoothie Bowl")) {
-                System.out.print("And your food is... Smoothie Bowl!!!\nHere is how you make a Smoothie Bowl: \n\n");
-                System.out.print("""
-                        Ingredients:
+                System.out.print("And your food is... Smoothie Bowl!!!\n");
+                System.out.print(Arrays.toString(smoothie));
 
-                        - 1 cup frozen fruit (e.g., mixed berries, mango, banana)
-                        - 1/2 cup yogurt (plain or flavored)
-                        - 1/2 cup milk or juice (adjust for desired consistency)
-                        - 1 tablespoon honey or another sweetener (optional)
-
-                        For the Toppings:
-
-                        - Fresh fruit slices (e.g., banana, strawberries, kiwi)
-                        - Granola
-                        - Nuts and seeds (e.g., almonds, chia seeds, flaxseeds)
-                        - Coconut flakes
-                        - Drizzle of honey or nut butter
-                        - Any other desired toppings (e.g., cacao nibs, goji berries)
-
-                        Instructions:
-
-                        1. In a blender, combine the frozen fruit, yogurt, milk or juice, and honey (if using).
-                        2. Blend until smooth and thick. The mixture should be thicker than a typical smoothie to support the toppings. If it's too thick to blend, add a little more liquid; if it's too thin, add more frozen fruit or a small amount of ice.
-                        3. Pour the smoothie mixture into a bowl, using a spoon to help spread it evenly.
-                        4. Arrange your chosen toppings on the surface of the smoothie. Be creative and have fun with the presentation!
-
-                        Tips:
-
-                        1. Frozen Fruit: Using frozen fruit helps achieve the thick, creamy consistency that is ideal for smoothie bowls.
-                        2. Balance: Aim for a balance of textures and flavors with your toppings—crunchy granola, creamy nut butter, and fresh fruit slices make a satisfying combination.
-                        3. Customization: Feel free to customize both the smoothie base and the toppings based on your preferences and what's available. Experiment with different fruits, yogurt types, and toppings to find your favorite combinations.
-                        """);
+            } else if (choice.equals("Overnight Oats")) {
+                System.out.print("And your food is... Overnight Oats!!!\n");
+                System.out.print(Arrays.toString(oats));
             } else {
                 System.out.print("Invalid input");
             }
