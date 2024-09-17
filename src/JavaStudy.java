@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -5,6 +6,87 @@ public class JavaStudy {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
+
+        String[] pancakes = {"""
+                       Ingredients:
+
+                        - 1 1/2 cups all-purpose flour
+                        - 3 1/2 teaspoons baking powder
+                        - 1 teaspoon salt
+                        - 1 tablespoon white sugar
+                        - 1 1/4 cups milk
+                        - 1 egg
+                        - 3 tablespoons melted butter
+                        - 1 teaspoon vanilla extract (optional)
+
+                        Instructions:
+
+                       1. In a large bowl, sift together the flour, baking powder, salt, and sugar;
+                       2. In another bowl, whisk together the milk, egg, melted butter, and vanilla extract (if using);
+                       3. Pour the wet ingredients into the bowl with the dry ingredients. Stir gently until just combined. The batter should be a bit lumpy. Over-mixing can lead to tough pancakes;
+                       4. Heat a griddle or non-stick skillet over medium heat. Lightly grease with butter or oil;
+                       5. Pour about 1/4 cup of batter onto the griddle or skillet for each pancake. Cook until bubbles form on the surface and the edges look set, about 2-3 minutes.
+                        Flip the pancake and cook for another 1-2 minutes, until golden brown and cooked through;
+                       6. Serve the pancakes warm with your favorite toppings, such as butter, maple syrup, fresh fruit, whipped cream, or chocolate chips.
+
+                       Tips:
+
+                       1. Do Not Over-Mix: Mix the batter just until the ingredients are combined. It's okay if there are a few lumps.
+                       2. Rest the Batter: Letting the batter rest for a few minutes before cooking can help it thicken and produce fluffier pancakes.
+                       3. Proper Heat: Ensure the griddle or skillet is properly preheated. Too hot, and the pancakes will burn before cooking through; too cool, and they will spread too much and become dense.
+                       4. Fresh Baking Powder: Make sure your baking powder is fresh. Old baking powder can result in flat pancakes.
+                       """};
+
+        String[] eggs = {"""
+                        Ingredients:
+
+                        For the Hollandaise Sauce:
+
+                        - 3 large egg yolks
+                        - 1 tablespoon lemon juice
+                        - 1/2 cup unsalted butter, melted
+                        - Salt, to taste
+                        - Cayenne pepper or paprika (optional)
+
+                        For the Eggs Benedict:
+
+                        - 4 large eggs
+                        - 2 English muffins, split and toasted
+                        - 4 slices Canadian bacon or ham
+                        - Fresh chives or parsley, chopped (for garnish)
+
+                        Instructions:
+
+                        1. Prepare the Hollandaise Sauce:
+
+                        - Fill a saucepan with a few inches of water and bring it to a simmer.
+                        - In a heatproof bowl (that can sit on the saucepan without touching the water), whisk together the egg yolks and lemon juice until they thicken and become pale.
+                        - Place the bowl over the simmering water, ensuring it doesn't touch the water.
+                        - Slowly drizzle in the melted butter while whisking continuously. The sauce should thicken and become smooth.
+                        - Season with salt and a pinch of cayenne pepper or paprika, if desired.Remove from heat and cover to keep warm.
+
+                        2. Poach the Eggs:
+
+                        - Fill a medium-sized pot with water and bring it to a gentle simmer. Add a teaspoon of vinegar (optional) to help the eggs hold their shape.
+                        - Crack each egg into a small bowl or ramekin.
+                        - Create a gentle whirlpool in the simmering water with a spoon and carefully slide each egg into the water.
+                        - Poach the eggs for about 3-4 minutes, or until the whites are set and the yolks are still runny.
+                        -Remove the eggs with a slotted spoon and place them on a paper towel to drain.
+
+                        3. Cook the Canadian Bacon:
+
+                        - In a skillet over medium heat, cook the Canadian bacon or ham until browned on both sides.
+
+                        4. Assemble the Eggs Benedict:
+
+                        - Place the toasted English muffin halves on plates.
+                        - Top each muffin half with a slice of Canadian bacon or ham.
+                        - Place a poached egg on top of each bacon slice.
+                        - Spoon the warm Hollandaise sauce over the eggs.
+                        - Garnish with chopped chives or parsley.
+                        """};
+
+
 
         String[] Breakfast = {"Fluffy Pancakes", "Eggs Benedict", "French Toast", "Breakfast Burritos", "Smoothie Bowl", "Overnight Oats",
         "Fruit Smoothie", "Greek Yogurt Parfait", "Avocado Toast", "Quesadilla", "Chia Seed Pudding", "Peanut Butter Banana Toast",
@@ -213,90 +295,14 @@ public class JavaStudy {
 
         if (recipe.equals("1")) {
             String choice = Breakfast[random.nextInt(Breakfast.length)];
-            int breakfast = scanner.nextInt();
-            if (breakfast == 1) {
+            if (choice.equals("Fluffy Pancakes")) {
                 System.out.print("And your food is...Fluffy Pancakes!!!\nHere is how you make Fluffy Pancakes:\n");
-                System.out.print("""
-                       Ingredients:
-
-                        - 1 1/2 cups all-purpose flour
-                        - 3 1/2 teaspoons baking powder
-                        - 1 teaspoon salt
-                        - 1 tablespoon white sugar
-                        - 1 1/4 cups milk
-                        - 1 egg
-                        - 3 tablespoons melted butter
-                        - 1 teaspoon vanilla extract (optional)
-
-                        Instructions:
-
-                       1. In a large bowl, sift together the flour, baking powder, salt, and sugar;
-                       2. In another bowl, whisk together the milk, egg, melted butter, and vanilla extract (if using);
-                       3. Pour the wet ingredients into the bowl with the dry ingredients. Stir gently until just combined. The batter should be a bit lumpy. Over-mixing can lead to tough pancakes;
-                       4. Heat a griddle or non-stick skillet over medium heat. Lightly grease with butter or oil;
-                       5. Pour about 1/4 cup of batter onto the griddle or skillet for each pancake. Cook until bubbles form on the surface and the edges look set, about 2-3 minutes.
-                        Flip the pancake and cook for another 1-2 minutes, until golden brown and cooked through;
-                       6. Serve the pancakes warm with your favorite toppings, such as butter, maple syrup, fresh fruit, whipped cream, or chocolate chips.
-
-                       Tips:
-
-                       1. Do Not Over-Mix: Mix the batter just until the ingredients are combined. It's okay if there are a few lumps.
-                       2. Rest the Batter: Letting the batter rest for a few minutes before cooking can help it thicken and produce fluffier pancakes.
-                       3. Proper Heat: Ensure the griddle or skillet is properly preheated. Too hot, and the pancakes will burn before cooking through; too cool, and they will spread too much and become dense.
-                       4. Fresh Baking Powder: Make sure your baking powder is fresh. Old baking powder can result in flat pancakes.
-                       """);
-            } else if (breakfast == 2) {
+                System.out.print(Arrays.toString(pancakes));
+            } else if (choice.equals("Eggs Benedict")) {
                 System.out.print("And your food is...Eggs Benedict!!!\n");
                 System.out.print("Here is how you make Eggs Benedict: \n");
-                System.out.print("""
-                        Ingredients:
 
-                        For the Hollandaise Sauce:
-
-                        - 3 large egg yolks
-                        - 1 tablespoon lemon juice
-                        - 1/2 cup unsalted butter, melted
-                        - Salt, to taste
-                        - Cayenne pepper or paprika (optional)
-
-                        For the Eggs Benedict:
-
-                        - 4 large eggs
-                        - 2 English muffins, split and toasted
-                        - 4 slices Canadian bacon or ham
-                        - Fresh chives or parsley, chopped (for garnish)
-
-                        Instructions:
-
-                        1. Prepare the Hollandaise Sauce:
-
-                        - Fill a saucepan with a few inches of water and bring it to a simmer.
-                        - In a heatproof bowl (that can sit on the saucepan without touching the water), whisk together the egg yolks and lemon juice until they thicken and become pale.
-                        - Place the bowl over the simmering water, ensuring it doesn't touch the water.
-                        - Slowly drizzle in the melted butter while whisking continuously. The sauce should thicken and become smooth.
-                        - Season with salt and a pinch of cayenne pepper or paprika, if desired.Remove from heat and cover to keep warm.
-
-                        2. Poach the Eggs:
-
-                        - Fill a medium-sized pot with water and bring it to a gentle simmer. Add a teaspoon of vinegar (optional) to help the eggs hold their shape.
-                        - Crack each egg into a small bowl or ramekin.
-                        - Create a gentle whirlpool in the simmering water with a spoon and carefully slide each egg into the water.
-                        - Poach the eggs for about 3-4 minutes, or until the whites are set and the yolks are still runny.
-                        -Remove the eggs with a slotted spoon and place them on a paper towel to drain.
-
-                        3. Cook the Canadian Bacon:
-
-                        - In a skillet over medium heat, cook the Canadian bacon or ham until browned on both sides.
-
-                        4. Assemble the Eggs Benedict:
-
-                        - Place the toasted English muffin halves on plates.
-                        - Top each muffin half with a slice of Canadian bacon or ham.
-                        - Place a poached egg on top of each bacon slice.
-                        - Spoon the warm Hollandaise sauce over the eggs.
-                        - Garnish with chopped chives or parsley.
-                        """);
-            } else if (breakfast == 3) {
+            } else if (choice.equals("French Toast")) {
                 System.out.print("And your food is... French Toast!!!\nHere is how you make French Toast: \n");
                 System.out.print("""
                         Ingredients:
@@ -324,7 +330,7 @@ public class JavaStudy {
                         2. Stale Bread: Slightly stale bread absorbs the egg mixture better without becoming too mushy.
                         3. Even Cooking: If making a large batch, keep cooked slices warm in a low oven (about 200°F or 95°C) while you finish cooking the rest.
                         """);
-            } else if (breakfast == 4) {
+            } else if (choice.equals("Breakfast Burritos")) {
                 System.out.print("And your food is... Breakfast Burritos!!!\nHere is how you make Breakfast Burritos: \n\n");
                 System.out.print("""
                         Ingredients:
@@ -360,7 +366,7 @@ public class JavaStudy {
                         2. Make Ahead: You can make a batch of burritos in advance, wrap them in foil, and freeze. To reheat, unwrap and microwave for 2-3 minutes, or until heated through.
                         3. Crispy Burritos: For a crispy exterior, lightly toast the wrapped burritos in a skillet over medium heat for a couple of minutes on each side.
                         """);
-            } else if (breakfast == 5) {
+            } else if (choice.equals("Smoothie Bowl")) {
                 System.out.print("And your food is... Smoothie Bowl!!!\nHere is how you make a Smoothie Bowl: \n\n");
                 System.out.print("""
                         Ingredients:
