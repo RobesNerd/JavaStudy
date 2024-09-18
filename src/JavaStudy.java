@@ -210,6 +210,571 @@ public class JavaStudy {
                 5. Enjoy: You can eat the oats straight from the jar or transfer them to a bowl.
                 """};
 
+        String[] fruitSmoothie = {"""
+                Here is how you make a Fruit Smoothie:
+
+                Ingredients:
+
+                - 1 cup (240ml) milk or juice (any type you prefer, like almond milk or orange juice)
+                - 1 banana
+                - 1/2 cup (75g) berries (strawberries, blueberries, etc.)
+                - 1/4 cup (60g) Greek yogurt (optional, for creaminess)
+                - 1 tablespoon honey or maple syrup (optional)
+                - Ice cubes (optional)
+
+                Instructions:
+
+                1. Combine all ingredients: Place all the ingredients in a blender.
+                2. Blend: Blend on high until smooth and creamy.
+                3. Adjust: If it's too thick, add more liquid. If too thin, add more fruit.
+                4. Serve: Pour into a glass and enjoy!
+                """};
+
+        String[] greekYogurtParfait = {"""
+                Here is how you make a Greek Yogurt Parfait:
+
+                Ingredients:
+
+                - 1 cup (240g) Greek yogurt
+                - 1/2 cup (75g) granola
+                - 1/2 cup (75g) fresh berries (blueberries, strawberries, etc.)
+                - 1 tablespoon honey (optional)
+                - Nuts or seeds for extra crunch (optional)
+
+                Instructions:
+
+                1. Layer: In a glass or bowl, add a layer of yogurt.
+                2. Add granola: Sprinkle a layer of granola on top of the yogurt.
+                3. Add berries: Add fresh berries as the next layer.
+                4. Repeat: Continue layering until all ingredients are used up.
+                5. Drizzle with honey and add nuts: Optional but adds extra flavor.
+                """};
+
+        String[] avocadoToast = {"""
+                Here is how you make Avocado Toast:
+
+                Ingredients:
+
+                - 1 ripe avocado
+                - 2 slices of whole grain bread
+                - Salt and pepper to taste
+                - A drizzle of olive oil (optional)
+                - A sprinkle of red pepper flakes (optional)
+                - Lemon juice (optional)
+
+                Instructions:
+
+                1. Toast bread: Toast the bread until it's crispy.
+                2. Prepare avocado: Mash the avocado in a bowl, and season with salt, pepper, and a splash of lemon juice if desired.
+                3. Assemble: Spread the mashed avocado on the toast.
+                4. Add toppings: Drizzle with olive oil, sprinkle red pepper flakes, or add extra toppings like eggs or tomatoes.
+                """};
+
+        String[] quesadilla = {"""
+                Here is how you make a Quesadilla:
+
+                Ingredients:
+
+                - 2 flour tortillas
+                - 1 cup (120g) shredded cheese (cheddar, mozzarella, etc.)
+                - 1/2 cup (75g) cooked chicken, beef, or veggies (optional)
+                - Salsa, sour cream, or guacamole for serving
+
+                Instructions:
+
+                1. Heat the tortilla: In a large pan over medium heat, place one tortilla.
+                2. Add fillings: Spread the cheese and any additional fillings (meat, veggies) on the tortilla.
+                3. Top with second tortilla: Place the second tortilla on top.
+                4. Cook until crispy: Cook for 2-3 minutes per side, or until golden and the cheese is melted.
+                5. Slice and serve: Cut into wedges and serve with salsa or guacamole.
+                """};
+
+        String[] chiaSeedPudding = {"""
+                Here is how you make Chia Seed Pudding:
+
+                Ingredients:
+
+                - 1/4 cup (40g) chia seeds
+                - 1 cup (240ml) milk (any kind)
+                - 1 tablespoon maple syrup or honey (optional)
+                - 1/2 teaspoon vanilla extract (optional)
+                - Fresh fruits, nuts, or granola for topping
+
+                Instructions:
+
+                1. Mix ingredients: Combine chia seeds, milk, sweetener, and vanilla in a bowl or jar.
+                2. Stir: Stir well to prevent clumping.
+                3. Refrigerate: Cover and refrigerate for at least 4 hours, or overnight, until the mixture thickens.
+                4. Stir and top: Give it a stir, and add your favorite toppings before serving.
+                """};
+
+        String[] peanutButterBananaToast = {"""
+                Here is how you make Peanut Butter Banana Toast:
+
+                Ingredients:
+
+                - 2 slices of whole grain bread
+                - 2 tablespoons peanut butter
+                - 1 banana, sliced
+                - Honey or cinnamon for topping (optional)
+
+                Instructions:
+
+                1. Toast bread: Toast the bread to your desired crispiness.
+                2. Spread peanut butter: Spread the peanut butter evenly on each slice.
+                3. Add banana: Top with sliced banana.
+                4. Add extra flavor: Drizzle with honey or sprinkle cinnamon on top if desired.
+                """};
+
+        String[] englishMuffinSandwich = {"""
+                Here is how you make an English Muffin Sandwich:
+
+                Ingredients:
+
+                - 1 English muffin, split
+                - 1 egg
+                - 1 slice of cheese (cheddar, American, etc.)
+                - 1-2 slices of ham or bacon (optional)
+                - Butter for toasting (optional)
+
+                Instructions:
+
+                1. Toast muffin: Toast the English muffin halves until golden brown.
+                2. Cook egg: Fry or scramble the egg in a pan.
+                3. Assemble: Place the egg, cheese, and meat (if using) between the muffin halves.
+                4. Serve: Enjoy your sandwich hot!
+                """};
+
+        String[] tacos = {"""
+                Here is how you make Tacos:
+
+                Ingredients:
+
+                - 4 small corn tortillas
+                - 1/2 cup (75g) cooked ground beef, chicken, or veggies
+                - 1/4 cup (30g) shredded lettuce
+                - 1/4 cup (30g) diced tomatoes
+                - 1/4 cup (30g) shredded cheese
+                - Salsa, guacamole, and sour cream for serving
+
+                Instructions:
+
+                1. Heat tortillas: Warm the tortillas in a dry skillet.
+                2. Assemble tacos: Fill each tortilla with cooked meat or veggies, lettuce, tomatoes, and cheese.
+                3. Serve: Top with salsa, guacamole, and sour cream if desired.
+                """};
+
+        String[] frittata = {"""
+                Here is how you make a Frittata:
+
+                Ingredients:
+
+                - 6 eggs
+                - 1/2 cup (60ml) milk
+                - 1 cup (120g) vegetables (spinach, bell peppers, onions, etc.)
+                - 1/2 cup (60g) shredded cheese
+                - Salt and pepper to taste
+
+                Instructions:
+
+                1. Preheat oven: Preheat to 180°C (350°F).
+                2. Whisk eggs and milk: In a bowl, whisk together the eggs and milk. Season with salt and pepper.
+                3. Add veggies: Stir in the vegetables and cheese.
+                4. Cook: Pour the mixture into a greased pan and bake for 20-25 minutes, or until set.
+                """};
+
+        String[] pitaPocket = {"""
+                Here is how you make a Pita Pocket:
+
+                Ingredients:
+
+                - 2 pita bread pockets
+                - 1/2 cup (75g) cooked chicken or falafel
+                - 1/4 cup (30g) hummus
+                - 1/4 cup (30g) cucumber, chopped
+                - 1/4 cup (30g) tomatoes, chopped
+                - Lettuce or spinach for crunch
+
+                Instructions:
+
+                1. Open pita: Carefully cut the pita to create a pocket.
+                2. Fill: Spread hummus inside and fill with chicken or falafel, cucumber, tomatoes, and greens.
+                3. Serve: Enjoy your fresh pita sandwich!
+                """};
+
+        String[] polenta = {"""
+                Here is how you make Polenta:
+
+                Ingredients:
+
+                - 1 cup (240g) polenta (cornmeal)
+                - 4 cups (960ml) water or broth
+                - 1/2 cup (60g) grated Parmesan cheese
+                - 1 tablespoon butter
+                - Salt and pepper to taste
+
+                Instructions:
+
+                1. Boil liquid: Bring the water or broth to a boil in a large pot.
+                2. Add polenta: Slowly whisk in the polenta, stirring constantly to avoid lumps.
+                3. Simmer: Lower the heat and cook for 20-30 minutes, stirring occasionally until thick and creamy.
+                4. Stir in cheese and butter: Mix in the Parmesan and butter, and season to taste.
+                """};
+
+        String[] shakshuka = {"""
+                Here is how you make Shakshuka:
+
+                Ingredients:
+
+                - 1 tablespoon olive oil
+                - 1/2 onion, chopped
+                - 1 bell pepper, chopped
+                - 2 cloves garlic, minced
+                - 1 teaspoon ground cumin
+                - 1 teaspoon paprika
+                - 1 can (400g) diced tomatoes
+                - 4 eggs
+                - Salt and pepper to taste
+
+                Instructions:
+
+                1. Cook vegetables: Heat the oil in a pan and sauté the onion, bell pepper, and garlic until softened.
+                2. Add spices: Stir in the cumin and paprika.
+                3. Add tomatoes: Pour in the tomatoes and simmer for 10 minutes.
+                4. Cook eggs: Make small wells in the sauce and crack an egg into each. Cover and cook until the eggs are done to your liking.
+                """};
+
+        String[] muffins = {"""
+                Here is how you make Muffins:
+
+                Ingredients:
+
+                - 2 cups (240g) all-purpose flour
+                - 1 cup (200g) sugar
+                - 1/2 cup (120ml) vegetable oil
+                - 1 cup (240ml) milk
+                - 2 eggs
+                - 1 teaspoon vanilla extract
+                - 2 teaspoons baking powder
+                - Pinch of salt
+                - Optional add-ins: blueberries, chocolate chips, nuts
+
+                Instructions:
+
+                1. Preheat oven: Preheat to 180°C (350°F).
+                2. Mix wet ingredients: In one bowl, whisk together the eggs, oil, milk, and vanilla.
+                3. Mix dry ingredients: In another bowl, mix the flour, sugar, baking powder, and salt.
+                4. Combine: Add the wet ingredients to the dry and mix until just combined. Fold in any add-ins.
+                5. Bake: Spoon the batter into a muffin tin and bake for 20-25 minutes, or until a toothpick comes out clean.
+                """};
+
+        String[] quinoa = {"""
+                Here is how you make Quinoa:
+
+                Ingredients:
+
+                - 1 cup (240g) quinoa
+                - 2 cups (480ml) water or broth
+                - 1/2 teaspoon salt
+                - Optional add-ins: vegetables, herbs, feta cheese
+
+                Instructions:
+
+                1. Rinse quinoa: Rinse the quinoa under cold water to remove the bitter coating.
+                2. Cook: Combine quinoa, water, and salt in a saucepan. Bring to a boil, reduce heat, and simmer for 15-20 minutes until the quinoa is fluffy.
+                3. Add flavor: Stir in vegetables, herbs, or cheese for added flavor.
+                """};
+
+        String[] capreseSkewers = {"""
+                Here is how you make Caprese Skewers:
+                
+                Ingredients:
+                
+                - Cherry tomatoes
+                - Fresh mozzarella balls
+                - Fresh basil leaves
+                - Balsamic glaze
+                - Olive oil
+                - Salt and pepper
+                
+                Instructions:
+                
+                1. Assemble Skewers: Thread a cherry tomato, mozzarella ball, and a fresh basil leaf onto a skewer. Repeat until all ingredients are used.
+                2. Drizzle: Place the skewers on a plate and drizzle with olive oil and balsamic glaze.
+                3. Season: Sprinkle with salt and pepper to taste.
+                4. Serve: These make a fresh and easy appetizer.
+                """};
+
+        String[] deviledEggs = {"""
+                Here is how you make Deviled Eggs:
+                
+                Ingredients:
+                
+                - 6 large eggs
+                - 3 tablespoons mayonnaise
+                - 1 teaspoon mustard
+                - 1 teaspoon white vinegar
+                - Salt and pepper to taste
+                - Paprika (for garnish)
+                
+                Instructions:
+                
+                1. Hard Boil Eggs: Place eggs in a saucepan, cover with water, and bring to a boil. Cook for 10 minutes, then cool and peel.
+                2. Prepare Filling: Slice eggs in half, remove the yolks, and mash them in a bowl with mayonnaise, mustard, vinegar, salt, and pepper.
+                3. Fill: Spoon or pipe the yolk mixture back into the egg whites.
+                4. Garnish: Sprinkle with paprika for garnish before serving.
+                """};
+
+        String[] spinachArtichokeDip = {"""
+                Here is how you make Spinach Artichoke Dip:
+                
+                Ingredients:
+                
+                - 1 can (400g) artichoke hearts, drained and chopped
+                - 1 cup frozen spinach, thawed and drained
+                - 1/2 cup mayonnaise
+                - 1/2 cup sour cream
+                - 1 cup shredded mozzarella cheese
+                - 1/2 cup grated Parmesan cheese
+                - 2 cloves garlic, minced
+                
+                Instructions:
+                
+                1. Preheat Oven: Preheat oven to 180°C (350°F).
+                2. Mix Ingredients: In a bowl, mix together artichokes, spinach, mayonnaise, sour cream, mozzarella, Parmesan, and garlic.
+                3. Bake: Transfer to a baking dish and bake for 20-25 minutes until bubbly and golden.
+                4. Serve: Serve with chips, crackers, or bread for dipping.
+                """};
+
+        String[] bruschetta = {"""
+                Here is how you make Bruschetta:
+                
+                Ingredients:
+                
+                - 1 baguette, sliced
+                - 2 cups diced tomatoes
+                - 1/4 cup fresh basil, chopped
+                - 2 cloves garlic, minced
+                - 2 tablespoons olive oil
+                - Balsamic vinegar (optional)
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Toast Bread: Toast baguette slices until golden.
+                2. Prepare Topping: In a bowl, mix tomatoes, basil, garlic, olive oil, and season with salt and pepper.
+                3. Assemble: Spoon the tomato mixture onto the toasted bread.
+                4. Drizzle with balsamic vinegar (optional): Serve immediately.
+                """};
+
+        String[] stuffedMushrooms = {"""
+                Here is how you make Stuffed Mushrooms:
+                
+                Ingredients:
+                
+                - 12 large mushrooms
+                - 1/2 cup cream cheese, softened
+                - 1/4 cup grated Parmesan cheese
+                - 2 cloves garlic, minced
+                - 2 tablespoons parsley, chopped
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Preheat Oven: Preheat to 180°C (350°F).
+                2. Prepare Mushrooms: Remove the stems from the mushrooms and finely chop the stems.
+                3. Mix Filling: In a bowl, mix cream cheese, Parmesan, garlic, parsley, and chopped mushroom stems.
+                4. Fill and Bake: Spoon the filling into the mushroom caps and bake for 15-20 minutes.
+                """};
+
+        String[] guacamole = {"""
+                Here is how you make Guacamole:
+                
+                Ingredients:
+                
+                - 2 ripe avocados
+                - 1 small onion, finely chopped
+                - 1 small tomato, diced
+                - 1 clove garlic, minced
+                - Juice of 1 lime
+                - Salt and pepper to taste
+                - Fresh cilantro (optional)
+                
+                Instructions:
+                
+                1. Mash Avocados: In a bowl, mash the avocados until smooth.
+                2. Add Ingredients: Mix in the onion, tomato, garlic, lime juice, and cilantro.
+                3. Season: Add salt and pepper to taste.
+                4. Serve: Enjoy with tortilla chips.
+                """};
+
+        String[] shrimpCocktail = {"""
+                Here is how you make Shrimp Cocktail:
+                
+                Ingredients:
+                
+                - 1 pound cooked shrimp, peeled and deveined
+                - 1/2 cup ketchup
+                - 2 tablespoons horseradish
+                - 1 tablespoon lemon juice
+                - 1 teaspoon hot sauce (optional)
+                - Lemon wedges for serving
+                
+                Instructions:
+                
+                1. Make Cocktail Sauce: Mix ketchup, horseradish, lemon juice, and hot sauce in a bowl.
+                2. Serve: Arrange shrimp on a platter with the cocktail sauce and lemon wedges.
+                """};
+
+        String[] bakedBrie = {"""
+                Here is how you make Baked Brie:
+                
+                Ingredients:
+                
+                - 1 wheel of brie cheese
+                - 1/4 cup honey
+                - 1/4 cup chopped nuts (optional)
+                - Crackers or bread for serving
+                
+                Instructions:
+                
+                1. Preheat Oven: Preheat to 180°C (350°F).
+                2. Bake Brie: Place the brie on a baking sheet and bake for 10-12 minutes until soft.
+                3. Drizzle Honey: Remove from oven and drizzle with honey and top with nuts if desired.
+                4. Serve: Serve warm with crackers or bread.
+                """};
+
+        String[] cucumberBites = {"""
+                Here is how you make Cucumber Bites:
+                
+                Ingredients:
+                
+                - 1 cucumber, sliced
+                - 1/4 cup cream cheese
+                - 1/4 cup smoked salmon (optional)
+                - Fresh dill for garnish
+                
+                Instructions:
+                
+                1. Prepare Cucumbers: Slice the cucumber into rounds.
+                2. Add Cream Cheese: Spread a dollop of cream cheese on each cucumber slice.
+                3. Add Salmon: Top with smoked salmon and garnish with dill.
+                4. Serve: These are perfect as a light and refreshing appetizer.
+                """};
+
+        String[] miniMeatballs = {"""
+                Here is how you make Mini Meatballs:
+                
+                Ingredients:
+                
+                - 1 pound ground beef or pork
+                - 1/4 cup breadcrumbs
+                - 1 egg
+                - 2 cloves garlic, minced
+                - Salt and pepper to taste
+                - Marinara sauce for serving
+                
+                Instructions:
+                
+                1. Preheat Oven: Preheat to 180°C (350°F).
+                2. Mix Meatballs: In a bowl, mix together the ground meat, breadcrumbs, egg, garlic, salt, and pepper.
+                3. Shape: Roll into small meatballs and place on a baking sheet.
+                4. Bake: Bake for 15-20 minutes until cooked through. Serve with marinara sauce.
+                """};
+
+        String[] spanakopita = {"""
+                Here is how you make Spanakopita:
+                
+                Ingredients:
+                
+                - 1 package phyllo dough
+                - 1 pound fresh spinach, wilted
+                - 1/2 cup feta cheese
+                - 2 eggs, beaten
+                - 1/4 cup butter, melted
+                
+                Instructions:
+                
+                1. Preheat Oven: Preheat to 180°C (350°F).
+                2. Prepare Filling: In a bowl, mix wilted spinach, feta cheese, and eggs.
+                3. Layer Phyllo: Brush the phyllo sheets with butter and layer in a baking dish, alternating with spinach mixture.
+                4. Bake: Bake for 25-30 minutes until golden and crispy.
+                """};
+
+        String[] stuffedPeppers = {"""
+                Here is how you make Stuffed Peppers:
+                
+                Ingredients:
+                
+                - 4 bell peppers, tops removed and seeds scooped out
+                - 1 cup cooked rice
+                - 1/2 pound ground beef or turkey
+                - 1 can diced tomatoes
+                - 1/2 cup shredded cheese
+                
+                Instructions:
+                
+                1. Preheat Oven: Preheat to 180°C (350°F).
+                2. Cook Filling: Cook the ground beef in a pan and mix with rice and diced tomatoes.
+                3. Stuff Peppers: Fill the bell peppers with the mixture.
+                4. Bake: Place peppers in a baking dish, top with cheese, and bake for 30 minutes.
+                """};
+
+        String[] antipastoPlatter = {"""
+                Here is how you make an Antipasto Platter:
+                
+                Ingredients:
+                
+                - Assorted cured meats (salami, prosciutto)
+                - Cheeses (mozzarella, provolone)
+                - Marinated olives
+                - Roasted red peppers
+                - Artichoke hearts
+                - Breadsticks or crackers
+                
+                Instructions:
+                
+                1. Arrange: Place all the ingredients on a large platter.
+                2. Serve: Serve with breadsticks or crackers.
+                """};
+
+        String[] mangoSalsa = {"""
+                Here is how you make Mango Salsa:
+                
+                Ingredients:
+                
+                - 2 ripe mangoes, diced
+                - 1/2 red onion, finely chopped
+                - 1/4 cup fresh cilantro, chopped
+                - Juice of 1 lime
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Mix Ingredients: In a bowl, combine mango, red onion, cilantro, and lime juice.
+                2. Season: Add salt and pepper to taste.
+                3. Serve: Enjoy with tortilla chips or as a topping for grilled fish.
+                """};
+
+        String[] crostiniWithRicottaAndHoney = {"""
+                Here is how you make Crostini with Ricotta and Honey:
+                
+                Ingredients:
+                
+                - 1 baguette, sliced
+                - 1 cup ricotta cheese
+                - 2 tablespoons honey
+                - Fresh figs or berries (optional)
+                
+                Instructions:
+                
+                1. Toast Bread: Toast baguette slices until golden.
+                2. Spread Ricotta: Spread ricotta cheese on the toasted bread.
+                3. Drizzle Honey: Drizzle with honey and top with fresh fruit.
+                4. Serve: A simple and elegant appetizer.
+                """};
+
+
         String[] Breakfast = {"Fluffy Pancakes", "Eggs Benedict", "French Toast", "Breakfast Burritos", "Smoothie Bowl", "Overnight Oats",
                 "Fruit Smoothie", "Greek Yogurt Parfait", "Avocado Toast", "Quesadilla", "Chia Seed Pudding", "Peanut Butter Banana Toast",
                 "English Muffin Sandwich", "Tacos", "Frittata", "Pita Pocket", "Polenta", "Shakshuka", "Muffins", "Quinoa"};
@@ -420,216 +985,113 @@ public class JavaStudy {
             if (choice.equals("Fluffy Pancakes")) {
                 System.out.print("And your food is...Fluffy Pancakes!!!\n");
                 System.out.print(Arrays.toString(pancakes));
-
             } else if (choice.equals("Eggs Benedict")) {
                 System.out.print("And your food is...Eggs Benedict!!!\n");
                 System.out.print(Arrays.toString(eggs));
-
             } else if (choice.equals("French Toast")) {
                 System.out.print("And your food is... French Toast!!!\n");
                 System.out.print(Arrays.toString(french));
-
             } else if (choice.equals("Breakfast Burritos")) {
                 System.out.print("And your food is... Breakfast Burritos!!!\n");
                 System.out.print(Arrays.toString(burritos));
-
             } else if (choice.equals("Smoothie Bowl")) {
                 System.out.print("And your food is... Smoothie Bowl!!!\n");
                 System.out.print(Arrays.toString(smoothie));
-
             } else if (choice.equals("Overnight Oats")) {
                 System.out.print("And your food is... Overnight Oats!!!\n");
                 System.out.print(Arrays.toString(oats));
-            } else {
-                System.out.print("Invalid input");
+            } else if (choice.equals("Fruit Smoothie")) {
+                System.out.print("And your food is... Fruit Smoothie!!!\n");
+                System.out.print(Arrays.toString(fruitSmoothie));
+            } else if (choice.equals("Greek Yogurt Parfait")) {
+                System.out.print("And your food is... Greek Yogurt Parfait!!!\n");
+                System.out.print(Arrays.toString(greekYogurtParfait));
+            } else if (choice.equals("Avocado Toast")) {
+                System.out.print("And your food is... Avocado Toast!!!\n");
+                System.out.print(Arrays.toString(avocadoToast));
+            } else if (choice.equals("Quesadilla")) {
+                System.out.print("And your food is... Quesadilla!!!\n");
+                System.out.print(Arrays.toString(quesadilla));
+            } else if (choice.equals("Chia Seed Pudding")) {
+                System.out.print("And your food is... Chia Seed Pudding!!!\n");
+                System.out.print(Arrays.toString(chiaSeedPudding));
+            } else if (choice.equals("Peanut Butter Banana Toast")) {
+                System.out.print("And your food is... Peanut Butter Banana Toast!!!\n");
+                System.out.print(Arrays.toString(peanutButterBananaToast));
+            } else if (choice.equals("English Muffin Sandwich")) {
+                System.out.print("And your food is... English Muffin Sandwich!!!\n");
+                System.out.print(Arrays.toString(englishMuffinSandwich));
+            } else if (choice.equals("Tacos")) {
+                System.out.print("And your food is... Tacos!!!\n");
+                System.out.print(Arrays.toString(tacos));
+            }  else if (choice.equals("Frittata")) {
+                System.out.print("And your food is... Frittata!!!\n");
+                System.out.print(Arrays.toString(frittata));
+            }  else if (choice.equals("Pita Pocket")) {
+                System.out.print("And your food is... Pita Pocket!!!\n");
+                System.out.print(Arrays.toString(pitaPocket));
+            }  else if (choice.equals("Polenta")) {
+                System.out.print("And your food is... Polenta!!!\n");
+                System.out.print(Arrays.toString(polenta));
+            }  else if (choice.equals("Shakshuka")) {
+                System.out.print("And your food is... Shakshuka!!!\n");
+                System.out.print(Arrays.toString(shakshuka));
+            }  else if (choice.equals("Muffins")) {
+                System.out.print("And your food is... Muffins!!!\n");
+                System.out.print(Arrays.toString(muffins));
+            }  else if (choice.equals("Quinoa")) {
+                System.out.print("And your food is... Quinoa!!!\n");
+                System.out.print(Arrays.toString(quinoa));
             }
         }
 
         else if (recipe.equals("2")) {
-            System.out.print("Choose between 1 and 5");
-            int app = scanner.nextInt();
-            if (app == 1) {
-                System.out.print("And you food is... Stuffed Mushrooms!!!\nHere is how you make Stuffed Mushrooms:\n\n");
-                System.out.print("""
-                        Ingredients:
-
-                        - 1 pound (450 grams) button or cremini mushrooms
-                        - 1/4 cup finely chopped onion
-                        - 2 cloves garlic, minced
-                        - 1/2 cup breadcrumbs (preferably panko for extra crunch)
-                        - 1/2 cup grated Parmesan cheese
-                        - 4 oz (115 grams) cream cheese, softened
-                        - 2 tablespoons chopped fresh parsley
-                        - 1/4 teaspoon salt
-                        - 1/4 teaspoon black pepper
-                        - 2 tablespoons olive oil, divided
-                        - 2 tablespoons melted butter (optional, for extra richness)
-
-                        Instructions:
-
-                        1. Preheat your oven to 190°C.
-                        2. Clean the mushrooms with a damp paper towel. Remove the stems and set the caps aside.
-                        3. Finely chop the stems.
-                        4. Heat 1 tablespoon of olive oil in a skillet over medium heat.
-                        5. Add the chopped mushroom stems and onions. Sauté until the mixture is soft and the moisture has evaporated, about 5 minutes.
-                        6. Add the garlic and sauté for another minute until fragrant.
-                        7. Remove from heat and allow to cool slightly.
-                        8. In a bowl, combine the sautéed mushroom stems, onions, garlic, breadcrumbs, Parmesan cheese, cream cheese, parsley, salt, and pepper. Mix until well combined.
-                        9. Arrange the mushroom caps on a baking sheet, cavity side up.
-                        10. Spoon the filling into each mushroom cap, pressing gently to mound it slightly.
-                        11. Drizzle the remaining 1 tablespoon of olive oil (and melted butter, if using) over the stuffed mushrooms.
-                        12. Bake in the preheated oven for 20-25 minutes, or until the mushrooms are tender and the tops are golden brown.
-                        13. Remove from the oven and let cool slightly before serving.
-                        14. Garnish with additional chopped parsley, if desired.
-
-                        Tips:
-
-                        1. Mushroom Size: Choose mushrooms that are roughly the same size for even cooking.
-                        2. Filling Variations: Customize the filling with ingredients like cooked sausage, spinach, or different cheeses.
-                        3. Make-Ahead: Prepare the stuffed mushrooms in advance and refrigerate. Bake just before serving.
-                        """);
-            } else if (app == 2) {
-                System.out.print("And you food is... Bruschetta!!!\nHere is how you make Bruschetta:\n\n");
-                System.out.print("""
-                        Ingredients:
-
-                        - 1 baguette or Italian bread loaf
-                        - 4 large ripe tomatoes, diced
-                        - 2 cloves garlic, minced
-                        - 1/4 cup fresh basil leaves, chopped
-                        - 2 tablespoons extra-virgin olive oil
-                        - 1 tablespoon balsamic vinegar (optional)
-                        - Salt and pepper, to taste
-                        - 1/4 cup grated Parmesan cheese (optional)
-                        - Extra olive oil for brushing the bread
-
-                        Instructions:
-
-                        1. In a medium bowl, combine the diced tomatoes, minced garlic, chopped basil, olive oil, balsamic vinegar (if using), salt, and pepper.
-                        2. Mix well and let the mixture sit for at least 10 minutes to allow the flavors to meld.
-                        3. Preheat your oven to 200°C.
-                        4. Slice the baguette or Italian bread into 1/2-inch thick slices.
-                        5. Arrange the bread slices on a baking sheet and brush both sides lightly with olive oil.
-                        6. Toast the bread in the preheated oven for 5-7 minutes, or until golden brown and crispy.
-                        7. Remove the toasted bread from the oven and let it cool slightly.
-                        8. Spoon the tomato mixture onto each slice of toasted bread.
-                        9. If desired, sprinkle the bruschetta with grated Parmesan cheese.
-                        10. Serve the bruschetta immediately, garnished with extra fresh basil if desired.
-
-                        Tips:
-
-                        1. Tomato Quality: Use ripe, flavorful tomatoes for the best taste.
-                        2. Bread Choice: A sturdy, crusty bread works best to hold the topping without becoming soggy.
-                        3. Garlic Flavor: For a milder garlic flavor, you can rub a cut clove of garlic on the toasted bread slices before adding the tomato mixture.
-                        """);
-            } else if (app == 3) {
-                System.out.print("And you food is... Spinach Artichoke Dip!!!\nHere is how you make Spinach Artichoke Dip:\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                
-                                 - 1 cup frozen chopped spinach, thawed and drained
-                                 - 1 cup canned or jarred artichoke hearts, drained and chopped
-                                 - 1 cup cream cheese, softened
-                                 - 1/2 cup sour cream
-                                 - 1/4 cup mayonnaise
-                                 - 1 cup grated Parmesan cheese
-                                 - 1 cup shredded mozzarella cheese
-                                 - 2 cloves garlic, minced
-                                 - Salt and pepper, to taste
-                                 - Red pepper flakes (optional, for a bit of heat)
-                                 - 1 tablespoon olive oil (optional, for topping)
-
-                                 Instructions:
-
-                                 1. Preheat your oven to 190°C.
-                                 2. Thaw the frozen spinach completely. Squeeze out as much excess water as possible using a clean kitchen towel or paper towels.
-                                 3. Drain the canned or jarred artichoke hearts and chop them into small pieces.
-                                 4. In a large bowl, combine the softened cream cheese, sour cream, and mayonnaise. Mix until smooth.
-                                 5. Add the drained spinach, chopped artichokes, grated Parmesan cheese, shredded mozzarella cheese, and minced garlic. Stir until well combined.
-                                 6. Season with salt, pepper, and red pepper flakes (if using).
-                                 7. Transfer the mixture to a baking dish or oven-safe skillet, spreading it out evenly.
-                                 8. For extra richness, drizzle a tablespoon of olive oil over the top.
-                                 9. Bake in the preheated oven for 20-25 minutes, or until the dip is bubbly and the top is golden brown.
-                                 10. Remove from the oven and let it cool slightly before serving.
-                                 11. Serve with toasted baguette slices, tortilla chips, crackers, or fresh vegetables.
-
-                                 Tips:
-
-                                 1. Cream Cheese: Ensure the cream cheese is softened to mix smoothly with the other ingredients.
-                                 2. Fresh Spinach: If you prefer using fresh spinach, sauté 4-5 cups of fresh spinach in a bit of olive oil until wilted, then chop and use as directed.
-                                 3. Cheese Variation: Feel free to add other cheeses like cheddar or Gruyère for different flavors.
-                                """);
-            } else if (app == 4) {
-                System.out.print("And you food is... Caprese Skewers!!!\nHere is how you make Caprese Skewers:\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                
-                                 - 1 pint cherry or grape tomatoes
-                                 - 8 oz (225 grams) fresh mozzarella balls (bocconcini or ciliegine)
-                                 - Fresh basil leaves
-                                 - Balsamic glaze or balsamic vinegar (optional)
-                                 - Extra-virgin olive oil
-                                 - Salt and pepper, to taste
-                                 - Wooden or metal skewers (about 6-8 inches long)
-                                
-                                 Instructions:
-
-                                 1. Rinse and dry the cherry or grape tomatoes.
-                                 2. Drain the mozzarella balls if they are packed in water.
-                                 3. Rinse and pat dry the fresh basil leaves.
-                                 4. Thread a tomato onto a skewer.
-                                 5. Follow with a basil leaf (fold it if it's large).
-                                 6. Add a mozzarella ball.
-                                 7. Repeat the pattern until the skewer is filled, leaving a little space at the end for handling. Typically, 2-3 sets of tomato, basil, and mozzarella per skewer work well.
-                                 8. Continue assembling the remaining skewers in the same manner.
-                                 9. Arrange the skewers on a serving platter.
-                                 10. Drizzle the skewers with extra-virgin olive oil.
-                                 11. Sprinkle with salt and pepper to taste.
-                                 12. For an extra layer of flavor, drizzle the skewers with balsamic glaze or a few drops of balsamic vinegar.
-                                 13. Serve the Caprese skewers immediately. They are best enjoyed fresh!
-
-                                 Tips:
-
-                                 1. Basil Freshness: Use fresh, bright green basil leaves for the best flavor and presentation.
-                                 2. Tomato Variety: If you can find heirloom cherry tomatoes, they add a lovely variety of colors and flavors.
-                                 3. Balsamic Glaze: Balsamic glaze is thicker and sweeter than regular balsamic vinegar, adding a nice touch of sweetness to the skewers.
-                                """);
-            } else if (app == 5) {
-                System.out.print("And you food is... Deviled Eggs!!!\nHere is how you make Deviled Eggs:\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                
-                                 - 6 large eggs
-                                 - 3 tablespoons mayonnaise
-                                 - 1 teaspoon yellow mustard
-                                 - 1 teaspoon white vinegar
-                                 - Salt and pepper, to taste
-                                 - Paprika, for garnish
-                                 - Optional toppings: chopped chives, dill, or crispy bacon bits
-                                
-                                 Instructions:
-
-                                 1. Place the eggs in a single layer in a saucepan and cover with water, about an inch above the eggs.
-                                 2. Bring the water to a boil over medium-high heat.
-                                 3. Once boiling, remove the pan from heat, cover, and let it sit for 10-12 minutes.
-                                 4. Transfer the eggs to a bowl of ice water to cool for about 5 minutes.
-                                 5. Gently tap the eggs on a hard surface and roll them to crack the shell.
-                                 6. Peel the eggs under running water to remove any shell fragments.
-                                 7. Slice the eggs in half lengthwise and carefully remove the yolks.
-                                 8. Place the yolks in a medium bowl and mash them with a fork until smooth
-                                 9. Add the mayonnaise, mustard, vinegar, salt, and pepper to the mashed yolks. Mix until well combined and smooth.
-                                 10. Spoon or pipe the yolk mixture back into the egg white halves. (To pipe, you can use a piping bag or a plastic bag with the corner snipped off.)
-                                 11. Sprinkle the filled eggs with paprika for a classic look.
-                                 12. Add any optional toppings like chopped chives, dill, or crispy bacon bits for extra flavor.
-
-                                 Tips:
-
-                                 1. Perfectly Cooked Eggs: Avoid overcooking the eggs to prevent a greenish ring around the yolk. The ice bath helps stop the cooking process immediately.
-                                 2. Smooth Filling: For an extra smooth filling, you can pass the yolk mixture through a fine-mesh sieve before adding the mayonnaise and other ingredients.
-                                 3. Flavor Variations: Experiment with different flavors by adding ingredients like hot sauce, relish, or different herbs and spices to the yolk mixture.
-                                """);
-            } else {
-                System.out.print("Invalid input");
+            String choice = Appetizers[random.nextInt(Breakfast.length)];
+            if (choice.equals("Caprese Skewers")) {
+                System.out.print("And your food is...Caprese Skewers!!!\n");
+                System.out.print(Arrays.toString(capreseSkewers));
+            } else if (choice.equals("Deviled Eggs")) {
+                System.out.print("And your food is...Deviled Eggs!!!\n");
+                System.out.print(Arrays.toString(deviledEggs));
+            } else if (choice.equals("Spinach Artichoke Dip")) {
+                System.out.print("And your food is... Spinach Artichoke Dip!!!\n");
+                System.out.print(Arrays.toString(spinachArtichokeDip));
+            } else if (choice.equals("Bruschetta")) {
+                System.out.print("And your food is... Bruschetta!!!\n");
+                System.out.print(Arrays.toString(bruschetta));
+            } else if (choice.equals("Stuffed Mushrooms")) {
+                System.out.print("And your food is... Stuffed Mushrooms!!!\n");
+                System.out.print(Arrays.toString(stuffedMushrooms));
+            } else if (choice.equals("Guacamole")) {
+                System.out.print("And your food is... Guacamole!!!\n");
+                System.out.print(Arrays.toString(guacamole));
+            } else if (choice.equals("Shrimp Cocktail")) {
+                System.out.print("And your food is... Shrimp Cocktail!!!\n");
+                System.out.print(Arrays.toString(shrimpCocktail));
+            } else if (choice.equals("Baked Brie")) {
+                System.out.print("And your food is... Baked Brie!!!\n");
+                System.out.print(Arrays.toString(bakedBrie));
+            } else if (choice.equals("Cucumber Bites")) {
+                System.out.print("And your food is... Cucumber Bites!!!\n");
+                System.out.print(Arrays.toString(cucumberBites));
+            } else if (choice.equals("Mini Meatballs")) {
+                System.out.print("And your food is... Mini Meatballs!!!\n");
+                System.out.print(Arrays.toString(miniMeatballs));
+            } else if (choice.equals("Spanakopita")) {
+                System.out.print("And your food is... Spanakopita!!!\n");
+                System.out.print(Arrays.toString(spanakopita));
+            } else if (choice.equals("Stuffed Peppers")) {
+                System.out.print("And your food is... Stuffed Peppers!!!\n");
+                System.out.print(Arrays.toString(stuffedPeppers));
+            } else if (choice.equals("Antipasto Platter")) {
+                System.out.print("And your food is... Antipasto Platter!!!\n");
+                System.out.print(Arrays.toString(antipastoPlatter));
+            } else if (choice.equals("Mango Salsa")) {
+                System.out.print("And your food is... Mango Salsa!!!\n");
+                System.out.print(Arrays.toString(mangoSalsa));
+            }  else if (choice.equals("Crostini with Ricotta and Honey")) {
+                System.out.print("And your food is... Crostini with Ricotta and Honey!!!\n");
+                System.out.print(Arrays.toString(crostiniWithRicottaAndHoney));
             }
         }
 
