@@ -774,6 +774,448 @@ public class JavaStudy {
                 4. Serve: A simple and elegant appetizer.
                 """};
 
+        String[] splitPeaSoup = {"""
+                Here is how you make Split Pea Soup:
+                
+                Ingredients:
+                
+                - 1 tablespoon olive oil
+                - 1 onion, chopped
+                - 2 garlic cloves, minced
+                - 2 cups dried split peas, rinsed
+                - 4 cups vegetable broth
+                - 2 carrots, diced
+                - 1 bay leaf
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Sauté Vegetables: Heat oil in a pot, sauté onion and garlic until soft.
+                2. Add Peas and Broth: Stir in split peas, broth, carrots, and bay leaf. Bring to a boil, then simmer for 1 hour.
+                3. Remove Bay Leaf: Discard bay leaf and season with salt and pepper.
+                4. Serve: Puree for a smoother texture or serve chunky.
+                """};
+
+        String[] carrotGingerSoup = {"""
+                Here is how you make Carrot Ginger Soup:
+                
+                Ingredients:
+                
+                - 1 tablespoon olive oil
+                - 1 onion, chopped
+                - 1 tablespoon fresh ginger, grated
+                - 6 large carrots, chopped
+                - 4 cups vegetable broth
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Sauté Onion: Heat oil in a pot, sauté onion and ginger until fragrant.
+                2. Add Carrots: Add carrots and broth, bring to a boil, then reduce to simmer for 20 minutes.
+                3. Blend: Use an immersion blender to puree the soup until smooth.
+                4. Serve: Season with salt and pepper and garnish with fresh herbs.
+                """};
+
+        String[] potatoLeekSoup = {"""
+                Here is how you make Potato Leek Soup:
+                
+                Ingredients:
+                
+                - 2 tablespoons butter
+                - 3 leeks, cleaned and chopped
+                - 4 large potatoes, peeled and cubed
+                - 4 cups vegetable broth
+                - 1 cup heavy cream (optional)
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Sauté Leeks: Melt butter in a pot, add leeks and cook until soft.
+                2. Add Potatoes and Broth: Stir in potatoes and broth, bring to a boil, then simmer for 20 minutes.
+                3. Blend: Puree the soup until smooth, then stir in cream if desired.
+                4. Serve: Season with salt and pepper and garnish with chives.
+                """};
+
+        String[] misoSoup = {"""
+                Here is how you make Miso Soup:
+                
+                Ingredients:
+                
+                - 4 cups dashi (Japanese soup stock)
+                - 3 tablespoons miso paste
+                - 1/2 cup tofu, cubed
+                - 1/4 cup green onions, chopped
+                - 1 sheet nori (seaweed), cut into small pieces
+                
+                Instructions:
+                
+                1. Heat Dashi: Bring the dashi to a simmer in a pot.
+                2. Add Miso: Whisk in miso paste until dissolved.
+                3. Add Tofu and Nori: Stir in tofu, nori, and green onions.
+                4. Serve: Enjoy this classic Japanese soup hot.
+                """};
+
+        String[] tortillaSoup = {"""
+                Here is how you make Tortilla Soup:
+                
+                Ingredients:
+                
+                - 1 tablespoon olive oil
+                - 1 onion, diced
+                - 2 garlic cloves, minced
+                - 1 can (400g) diced tomatoes
+                - 4 cups chicken broth
+                - 1 teaspoon cumin
+                - 1 teaspoon chili powder
+                - 1 cup cooked chicken, shredded
+                - Tortilla strips, avocado, and cilantro for topping
+                
+                Instructions:
+                
+                1. Sauté Onion and Garlic: Heat oil in a pot, sauté onion and garlic until soft.
+                2. Add Tomatoes and Broth: Stir in diced tomatoes, broth, cumin, and chili powder. Bring to a boil, then simmer.
+                3. Add Chicken: Stir in cooked chicken and simmer for another 5 minutes.
+                4. Serve: Top with tortilla strips, avocado, and cilantro.
+                """};
+
+        String[] caesarSalad = {"""
+                Here is how you make Caesar Salad:
+                
+                Ingredients:
+                
+                - 1 head of romaine lettuce, chopped
+                - 1/4 cup Parmesan cheese, grated
+                - 1 cup croutons
+                - 2 tablespoons Caesar dressing
+                - Freshly ground black pepper
+                
+                Instructions:
+                
+                1. Toss Ingredients: In a large bowl, toss lettuce, Parmesan, and croutons.
+                2. Add Dressing: Drizzle Caesar dressing and toss again.
+                3. Serve: Sprinkle with black pepper and serve.
+                """};
+
+        String[] greekSalad = {"""
+                Here is how you make Greek Salad:
+                
+                Ingredients:
+                
+                - 2 cucumbers, chopped
+                - 4 tomatoes, chopped
+                - 1/2 red onion, sliced
+                - 1/4 cup Kalamata olives
+                - 1/4 cup feta cheese, crumbled
+                - 2 tablespoons olive oil
+                - 1 tablespoon red wine vinegar
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Combine Vegetables: In a bowl, mix cucumbers, tomatoes, red onion, and olives.
+                2. Add Feta: Sprinkle with feta cheese.
+                3. Drizzle Dressing: Whisk together olive oil, vinegar, salt, and pepper. Drizzle over the salad.
+                4. Serve: Toss lightly and enjoy.
+                """};
+
+        String[] capreseSalad = {"""
+                Here is how you make Caprese Salad:
+                
+                Ingredients:
+                
+                - 4 large tomatoes, sliced
+                - 1 ball fresh mozzarella, sliced
+                - 1/4 cup fresh basil leaves
+                - 2 tablespoons olive oil
+                - 1 tablespoon balsamic vinegar
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Layer Ingredients: On a plate, alternate slices of tomatoes and mozzarella.
+                2. Add Basil: Tuck basil leaves between the layers.
+                3. Drizzle: Drizzle with olive oil and balsamic vinegar.
+                4. Serve: Sprinkle with salt and pepper and enjoy.
+                """};
+
+        String[] cobbSalad = {"""
+                Here is how you make Cobb Salad:
+                
+                Ingredients:
+                
+                - 4 cups romaine lettuce, chopped
+                - 1 avocado, sliced
+                - 2 hard-boiled eggs, chopped
+                - 1/2 cup cooked chicken, diced
+                - 1/4 cup bacon, cooked and crumbled
+                - 1/4 cup blue cheese, crumbled
+                - 2 tablespoons red wine vinegar
+                - 1 tablespoon olive oil
+                
+                Instructions:
+                
+                1. Arrange Ingredients: On a plate, arrange lettuce, avocado, eggs, chicken, bacon, and blue cheese.
+                2. Drizzle Dressing: Whisk together olive oil and vinegar, and drizzle over the salad.
+                3. Serve: Toss lightly and enjoy!
+                """};
+
+        // Additional salads in the same format
+        String[] quinoaSalad = {"""
+                Here is how you make Quinoa Salad:
+                
+                Ingredients:
+                
+                - 1 cup cooked quinoa
+                - 1 cucumber, diced
+                - 1 bell pepper, diced
+                - 1/4 cup red onion, chopped
+                - 1/4 cup feta cheese, crumbled
+                - 2 tablespoons olive oil
+                - 1 tablespoon lemon juice
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Mix Ingredients: In a large bowl, combine quinoa, cucumber, bell pepper, red onion, and feta.
+                2. Add Dressing: Whisk together olive oil, lemon juice, salt, and pepper, then pour over salad.
+                3. Serve: Toss lightly and enjoy!
+                """};
+
+                String[] tomatoBasilSoup = {"""
+                Here is how you make Tomato Basil Soup:
+                
+                Ingredients:
+                
+                - 2 tablespoons olive oil
+                - 1 onion, chopped
+                - 3 cloves garlic, minced
+                - 2 cans (800g) crushed tomatoes
+                - 2 cups vegetable broth
+                - 1/4 cup fresh basil, chopped
+                - Salt and pepper to taste
+                - Optional: cream for extra richness
+                
+                Instructions:
+                
+                1. Sauté Vegetables: Heat olive oil in a pot, sauté onion and garlic until softened.
+                2. Add Tomatoes: Add crushed tomatoes and broth, bring to a boil, then simmer for 20 minutes.
+                3. Blend: Use an immersion blender to puree the soup until smooth.
+                4. Add Basil: Stir in fresh basil, salt, and pepper. Optionally add a splash of cream.
+                5. Serve: Enjoy warm with a drizzle of olive oil or a dollop of cream.
+                """};
+
+                String[] chickenNoodleSoup = {"""
+                Here is how you make Chicken Noodle Soup:
+                
+                Ingredients:
+                
+                - 1 tablespoon olive oil
+                - 1 onion, chopped
+                - 2 carrots, diced
+                - 2 celery stalks, diced
+                - 2 garlic cloves, minced
+                - 6 cups chicken broth
+                - 2 cups cooked chicken, shredded
+                - 1 1/2 cups egg noodles
+                - Salt, pepper, and fresh parsley to taste
+                
+                Instructions:
+                
+                1. Sauté Vegetables: Heat oil in a pot, sauté onion, carrots, celery, and garlic until soft.
+                2. Add Broth: Pour in chicken broth and bring to a boil.
+                3. Cook Noodles: Add noodles and cook until tender.
+                4. Add Chicken: Stir in shredded chicken and season with salt, pepper, and parsley.
+                5. Serve: Enjoy this comforting soup warm.
+                """};
+
+                String[] butternutSquashSoup = {"""
+                Here is how you make Butternut Squash Soup:
+                
+                Ingredients:
+                
+                - 1 tablespoon olive oil
+                - 1 onion, chopped
+                - 1 butternut squash, peeled and cubed
+                - 3 cups vegetable broth
+                - 1/2 teaspoon cinnamon
+                - 1/2 teaspoon nutmeg
+                - Salt and pepper to taste
+                - Optional: cream for added richness
+                
+                Instructions:
+                
+                1. Sauté Onion: Heat oil in a pot, sauté onion until soft.
+                2. Add Squash: Add butternut squash and broth, bring to a boil, then reduce to simmer.
+                3. Season: Stir in cinnamon, nutmeg, salt, and pepper.
+                4. Blend: Puree the soup until smooth using an immersion blender.
+                5. Serve: Optionally swirl in some cream for extra richness.
+                """};
+
+                String[] minestroneSoup = {"""
+                Here is how you make Minestrone Soup:
+                
+                Ingredients:
+                
+                - 1 tablespoon olive oil
+                - 1 onion, diced
+                - 2 carrots, diced
+                - 2 celery stalks, diced
+                - 2 cloves garlic, minced
+                - 1 can (400g) diced tomatoes
+                - 4 cups vegetable broth
+                - 1 can (400g) cannellini beans, drained
+                - 1 zucchini, diced
+                - 1 cup spinach
+                - 1/2 cup pasta
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Sauté Vegetables: Heat oil in a large pot, sauté onion, carrots, celery, and garlic until soft.
+                2. Add Tomatoes and Broth: Pour in diced tomatoes and vegetable broth, bring to a simmer.
+                3. Add Beans and Veggies: Stir in beans, zucchini, and pasta. Cook until pasta is tender.
+                4. Stir in Spinach: Add spinach, season with salt and pepper, and cook for 2 more minutes.
+                5. Serve: Ladle into bowls and enjoy with crusty bread.
+                """};
+
+                String[] frenchOnionSoup = {"""
+                Here is how you make French Onion Soup:
+                
+                Ingredients:
+                
+                - 4 large onions, thinly sliced
+                - 2 tablespoons butter
+                - 1 tablespoon olive oil
+                - 4 cups beef broth
+                - 1/2 cup white wine
+                - 1 tablespoon thyme
+                - Salt and pepper to taste
+                - Baguette slices, toasted
+                - Gruyere cheese, shredded
+                
+                Instructions:
+                
+                1. Caramelize Onions: Heat butter and oil in a pot, add onions, and cook over low heat for 30-40 minutes until caramelized.
+                2. Add Broth: Stir in beef broth, wine, thyme, salt, and pepper. Simmer for 20 minutes.
+                3. Serve: Ladle soup into bowls, top with toasted baguette slices, and sprinkle with Gruyere cheese.
+                4. Broil: Place bowls under the broiler until cheese is melted and bubbly.
+                """};
+
+                String[] lentilSoup = {"""
+                Here is how you make Lentil Soup:
+                
+                Ingredients:
+                
+                - 1 tablespoon olive oil
+                - 1 onion, diced
+                - 2 carrots, diced
+                - 2 garlic cloves, minced
+                - 1 cup lentils, rinsed
+                - 4 cups vegetable broth
+                - 1 can (400g) diced tomatoes
+                - 1 teaspoon cumin
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Sauté Vegetables: Heat oil in a pot, sauté onion, carrots, and garlic until soft.
+                2. Add Lentils: Stir in lentils, diced tomatoes, and broth.
+                3. Simmer: Bring to a boil, then reduce heat and simmer for 30-40 minutes until lentils are tender.
+                4. Season: Stir in cumin, salt, and pepper. Serve warm.
+                """};
+
+                String[] clamChowder = {"""
+                Here is how you make Clam Chowder:
+                
+                Ingredients:
+                
+                - 4 slices bacon, chopped
+                - 1 onion, diced
+                - 2 potatoes, peeled and diced
+                - 2 cans (300g each) clams, drained (reserve the juice)
+                - 2 cups clam juice or broth
+                - 1 cup heavy cream
+                - Salt, pepper, and fresh parsley to taste
+                
+                Instructions:
+                
+                1. Cook Bacon: In a pot, cook bacon until crispy, then remove and set aside.
+                2. Sauté Onion: Add onion to the pot and cook until soft.
+                3. Add Potatoes: Stir in potatoes, clam juice, and reserved clam liquid. Simmer until potatoes are tender.
+                4. Add Clams: Stir in clams, cream, and seasonings. Heat through.
+                5. Serve: Top with crispy bacon and parsley. Enjoy!
+                """};
+
+                String[] thaiCoconutSoup = {"""
+                Here is how you make Thai Coconut Soup (Tom Kha Gai):
+                
+                Ingredients:
+                
+                - 2 cups coconut milk
+                - 2 cups chicken broth
+                - 2 chicken breasts, thinly sliced
+                - 2 tablespoons fish sauce
+                - 1 tablespoon lime juice
+                - 1 tablespoon ginger, grated
+                - 1-2 tablespoons red curry paste
+                - Mushrooms, sliced
+                - Fresh cilantro for garnish
+                
+                Instructions:
+                
+                1. Heat Coconut Milk: In a pot, bring coconut milk and broth to a simmer.
+                2. Add Chicken: Stir in chicken, ginger, lime juice, fish sauce, and curry paste. Simmer until chicken is cooked through.
+                3. Add Mushrooms: Stir in mushrooms and cook for a few more minutes.
+                4. Serve: Garnish with fresh cilantro and enjoy warm.
+                """};
+
+                String[] broccoliCheddarSoup = {"""
+                Here is how you make Broccoli Cheddar Soup:
+                
+                Ingredients:
+                
+                - 2 tablespoons butter
+                - 1 onion, chopped
+                - 2 cloves garlic, minced
+                - 3 cups broccoli florets
+                - 2 cups vegetable broth
+                - 1 1/2 cups milk
+                - 2 cups shredded cheddar cheese
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Sauté Onion: In a pot, melt butter and sauté onion and garlic until soft.
+                2. Add Broccoli: Stir in broccoli and broth, bring to a boil, then simmer for 10 minutes.
+                3. Blend: Use an immersion blender to blend the soup until smooth.
+                4. Add Cheese: Stir in milk and cheddar cheese, season with salt and pepper.
+                5. Serve: Enjoy with crusty bread!
+                """};
+
+                String[] gazpacho = {"""
+                Here is how you make Gazpacho:
+                
+                Ingredients:
+                
+                - 4 large tomatoes, chopped
+                - 1 cucumber, peeled and chopped
+                - 1 bell pepper, chopped
+                - 1/4 cup olive oil
+                - 2 tablespoons red wine vinegar
+                - 1 clove garlic, minced
+                - Salt and pepper to taste
+                
+                Instructions:
+                
+                1. Blend Ingredients: In a blender, combine tomatoes, cucumber, bell pepper, olive oil, vinegar, and garlic.
+                2. Chill: Refrigerate for at least 2 hours before serving.
+                3. Serve: Enjoy this refreshing cold soup with crusty bread.
+                """};
+
+            
+
+
+
 
         String[] Breakfast = {"Fluffy Pancakes", "Eggs Benedict", "French Toast", "Breakfast Burritos", "Smoothie Bowl", "Overnight Oats",
                 "Fruit Smoothie", "Greek Yogurt Parfait", "Avocado Toast", "Quesadilla", "Chia Seed Pudding", "Peanut Butter Banana Toast",
@@ -1096,219 +1538,52 @@ public class JavaStudy {
         }
 
         else if (recipe.equals("3")) {
-            System.out.print("Choose a number between 1 and 5: ");
-            int soup = scanner.nextInt();
-            if (soup == 1) {
-                System.out.print("And your food is... Chicken Tortilla Soup!!!\nHere is how you make Chicken Tortilla Soup:\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                
-                                 - 1 tablespoon olive oil
-                                 - 1 medium onion, diced
-                                 - 2 cloves garlic, minced
-                                 - 1 red bell pepper, diced
-                                 - 1 green bell pepper, diced
-                                 - 1 jalapeño, seeded and minced (optional, for heat)
-                                 - 1 teaspoon ground cumin
-                                 - 1 teaspoon chili powder
-                                 - 1/2 teaspoon paprika
-                                 - 1/2 teaspoon dried oregano
-                                 - 6 cups chicken broth
-                                 - 1 can (14.5 oz) diced tomatoes
-                                 - 1 can (14.5 oz) black beans, drained and rinsed
-                                 - 1 cup corn kernels (fresh, frozen, or canned)
-                                 - 2 cups cooked and shredded chicken (rotisserie chicken works well)
-                                 - Salt and pepper, to taste
-                                 - Juice of 1 lime
-                                 - Fresh cilantro, chopped (for garnish)
-                                 - Tortilla strips or chips (for garnish)
-                                 - Optional toppings: diced avocado, shredded cheese, sour cream, sliced radishes
-                                
-                                 Instructions:
-
-                                 1. Heat the olive oil in a large pot over medium heat.
-                                 2. Add the diced onion and sauté until soft and translucent, about 5 minutes.
-                                 3. Add the minced garlic, red and green bell peppers, and jalapeño (if using). Cook for another 2-3 minutes until the peppers start to soften.
-                                 4. Stir in the ground cumin, chili powder, paprika, and dried oregano. Cook for 1 minute to release the flavors of the spices.
-                                 5. Pour in the chicken broth, diced tomatoes, black beans, and corn kernels. Stir to combine.
-                                 6. Bring the soup to a simmer and cook for 10-15 minutes to allow the flavors to meld.
-                                 7. Add the cooked and shredded chicken to the pot. Stir and cook until the chicken is heated through, about 5 minutes.
-                                 8. Season the soup with salt and pepper to taste.
-                                 9. Stir in the lime juice.
-                                 10. Ladle the soup into bowls.
-                                 11. Garnish with fresh cilantro, tortilla strips or chips, and any optional toppings you like.
-
-                                 Tips:
-
-                                 1. For the best flavor, use homemade chicken broth. If you use store-bought broth, choose a low-sodium version and adjust the seasoning to your taste.
-                                 2. Instead of frying, you can toast tortilla strips for a healthier option. Cut corn tortillas into strips, lightly brush with olive oil, and bake at 350°F (175°C) for about 10 minutes or until crispy.
-
-                                 3. Adding a squeeze of fresh lime juice just before serving brightens the flavors and adds a zesty freshness to the soup.
-                                """);
-            } else if (soup == 2) {
-                System.out.print("And your food is... Tomato Basil Soup!!!\nHere is how you make Tomato Basil Soup:\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                
-                                 - 2 tablespoons olive oil
-                                 - 1 medium onion, diced
-                                 - 3 cloves garlic, minced
-                                 - 1 can (28 ounces) whole peeled tomatoes
-                                 - 2 cups vegetable or chicken broth
-                                 - 1/2 teaspoon sugar (optional, to balance acidity)
-                                 - Salt and pepper, to taste
-                                 - 1/4 cup fresh basil leaves, chopped
-                                 - 1/2 cup heavy cream or half-and-half (optional, for a creamy version)
-                                 - Additional basil leaves for garnish
-                                
-                                 Instructions:
-                                
-                                 1. Heat the olive oil in a large pot over medium heat.
-                                 2. Add the diced onion and cook until soft and translucent, about 5-7 minutes.
-                                 3. Add the minced garlic and cook for another 1-2 minutes until fragrant.
-                                 4. Add the canned tomatoes with their juice, breaking them up with a spoon or using a potato masher.
-                                 5. Pour in the vegetable or chicken broth.
-                                 6. Stir in the sugar (if using), and season with salt and pepper.
-                                 7. Bring the soup to a simmer over medium-high heat, then reduce the heat to low.
-                                 8. Let it simmer for about 20-30 minutes to allow the flavors to meld.
-                                 9. Remove the soup from heat.
-                                 10. Use an immersion blender to puree the soup until smooth, or carefully transfer the soup in batches to a blender and blend until smooth.
-                                 11. Return the blended soup to the pot if using a blender.
-                                 12. Stir in the chopped fresh basil.
-                                 13. If you prefer a creamy soup, stir in the heavy cream or half-and-half.
-                                 14. Taste the soup and adjust seasoning with more salt and pepper if needed.
-                                 15. Ladle the soup into bowls and garnish with additional fresh basil leaves.
-
-                                 Tips:
-
-                                 1. Fresh Tomatoes: For a fresh tomato version, use about 2 pounds of ripe tomatoes. Blanch, peel, and chop them before adding to the soup.
-                                 2. Roasting Tomatoes: For extra depth of flavor, roast the tomatoes in the oven with a bit of olive oil, salt, and pepper at 200°C for 25-30 minutes before adding to the soup.
-                                 3. Serve with: Pair the soup with a grilled cheese sandwich or crusty bread for a classic combination.
-                                """);
-            } else if (soup == 3) {
-                System.out.print("And your food is... Caesar Salad!!!\nHere is how you make Caesar Salad:\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                 For the Salad:
-
-                                 - 1 large head of romaine lettuce, chopped
-                                 - 1/2 cup grated Parmesan cheese
-                                 - 1 cup croutons (store-bought or homemade)
-                                
-                                 For the Dressing:
-
-                                 - 1/2 cup mayonnaise
-                                 - 1/4 cup grated Parmesan cheese
-                                 - 1 clove garlic, minced
-                                 - 2 tablespoons lemon juice (freshly squeezed)
-                                 - 1 teaspoon Dijon mustard
-                                 - 1 teaspoon Worcestershire sauce
-                                 - Salt and pepper, to taste
-                                 - 1-2 anchovy fillets, minced (optional)
-                                
-                                 Instructions:
-
-                                 1. In a medium bowl, whisk together the mayonnaise, grated Parmesan cheese, minced garlic, lemon juice, Dijon mustard, Worcestershire sauce, salt, and pepper.
-                                 2. If using, add the minced anchovy fillets for an authentic Caesar dressing flavor.
-                                 3. Mix until the dressing is smooth and well combined. Adjust the seasoning to taste.
-                                 4. Chop the romaine lettuce into bite-sized pieces.
-                                 5. Wash and dry the lettuce thoroughly, preferably using a salad spinner to remove excess water.
-                                 6. In a large salad bowl, toss the chopped romaine lettuce with the dressing until the lettuce is evenly coated.
-                                 7. Add the croutons and grated Parmesan cheese, tossing gently to combine.
-                                 8. Transfer the salad to serving plates.
-                                 9. For added flavor, top with additional grated Parmesan cheese and a few more croutons.
-
-                                 Tips:
-
-                                 1. Homemade Croutons: For homemade croutons, cut day-old bread into cubes, toss with olive oil, salt, and pepper, and bake at 190°C for about 10-15 minutes until golden and crispy.
-                                 2. Anchovy Paste: If you prefer a milder anchovy flavor, use anchovy paste instead of whole fillets.
-                                 3. Grilled Chicken: Add grilled chicken slices to the salad for a more filling meal.
-                                """);
-            } else if (soup == 4) {
-                System.out.print("And your food is... Minestrone Soup!!!\nHere is how you make Minestrone Soup\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                
-                                 - 2 tablespoons olive oil
-                                 - 1 medium onion, diced
-                                 - 2 cloves garlic, minced
-                                 - 2 carrots, diced
-                                 - 2 celery stalks, diced
-                                 - 1 zucchini, diced
-                                 - 1 yellow squash, diced
-                                 - 1 potato, diced
-                                 - 1 can (14.5 oz) diced tomatoes
-                                 - 4 cups vegetable broth
-                                 - 1 can (15 oz) cannellini beans, drained and rinsed
-                                 - 1 cup green beans, trimmed and cut into 1-inch pieces
-                                 - 1 cup small pasta (like ditalini or elbow macaroni)
-                                 - 1 teaspoon dried oregano
-                                 - 1 teaspoon dried basil
-                                 - 1/2 teaspoon dried thyme
-                                 - Salt and pepper, to taste
-                                 - 2 cups fresh spinach or kale, chopped
-                                 - Grated Parmesan cheese, for serving (optional)
-                                 - Fresh basil or parsley, for garnish (optional)
-                                
-                                 Instructions:
-
-                                 1. Heat the olive oil in a large pot over medium heat.
-                                 2. Add the diced onion and cook until softened, about 5 minutes.
-                                 3. Add the minced garlic, carrots, and celery, and cook for another 5 minutes until the vegetables begin to soften.
-                                 4. Stir in the diced zucchini, yellow squash, and potato.
-                                 5. Cook for 2-3 minutes, stirring occasionally.
-                                 6. Pour in the diced tomatoes (with their juice) and vegetable broth.
-                                 7. Add the dried oregano, basil, thyme, salt, and pepper.
-                                 8. Bring the soup to a boil, then reduce the heat and let it simmer for about 20 minutes, or until the vegetables are tender.
-                                 9. Stir in the cannellini beans and green beans.
-                                 10. Add the pasta and cook according to the pasta package instructions, usually about 8-10 minutes, until the pasta is al dente.
-                                 11. Stir in the chopped spinach or kale and cook for another 2-3 minutes until the greens are wilted.
-                                 12. Taste and adjust seasoning with more salt and pepper if needed.
-                                 13. Ladle the soup into bowls.
-                                 14. Garnish with grated Parmesan cheese and fresh basil or parsley, if desired.
-
-                                 Tips:
-
-                                 1. Seasonal Vegetables: Feel free to use any seasonal vegetables you have on hand, such as bell peppers, peas, or cabbage.
-                                 2. Parmesan Rind: For added depth of flavor, add a Parmesan rind to the soup while it simmers and remove it before serving.
-                                 3. Vegan Option: Skip the Parmesan cheese and use a vegan-friendly broth to make this soup entirely plant-based.
-                                """);
-            } else if (soup == 5) {
-                System.out.print("And your food is... Gazpacho!!!\nHere is how you make Gazpacho\n\n");
-                System.out.print("""
-                                 Ingredients:
-                                
-                                 - 6 large ripe tomatoes, chopped
-                                 - 1 cucumber, peeled and chopped
-                                 - 1 red bell pepper, chopped
-                                 - 1 green bell pepper, chopped
-                                 - 1 small red onion, chopped
-                                 - 2 cloves garlic, minced
-                                 - 3 cups tomato juice
-                                 - 1/4 cup red wine vinegar
-                                 - 1/4 cup olive oil
-                                 - Salt and pepper, to taste
-                                 - 1 teaspoon smoked paprika (optional)
-                                 - Fresh basil or parsley, chopped (for garnish)
-                                
-                                 Instructions:
-
-                                 1. In a large bowl, combine the chopped tomatoes, cucumber, red bell pepper, green bell pepper, red onion, and minced garlic.
-                                 2. Working in batches, blend the vegetable mixture with the tomato juice until smooth. You can blend it completely for a smooth texture or leave some chunks for a more rustic texture.
-                                 3. Return the blended mixture to the large bowl. Stir in the red wine vinegar, olive oil, salt, pepper, and smoked paprika (if using).
-                                 4. Cover the bowl and refrigerate the gazpacho for at least 2 hours, or until thoroughly chilled.
-                                 5. Ladle the gazpacho into bowls.
-                                 6. Garnish with chopped fresh basil or parsley.
-                                 7. Optionally, serve with a drizzle of olive oil or a sprinkle of croutons for added texture.
-
-                                 Tips:
-
-                                 1. Tomato Quality: Use the ripest and juiciest tomatoes you can find for the best flavor.
-                                 2. Chill Thoroughly: Gazpacho tastes best when it’s very cold, so don't skip the chilling step.
-                                 3. Adjust Consistency: If the soup is too thick, you can add a bit more tomato juice or cold water to reach your desired consistency.
-                                """);
-            } else {
-                System.out.print("Invalid input");
+            String choice = soups[random.nextInt(Breakfast.length)];
+            if (choice.equals("Caprese Skewers")) {
+                System.out.print("And your food is...Caprese Skewers!!!\n");
+                System.out.print(Arrays.toString(capreseSkewers));
+            } else if (choice.equals("Deviled Eggs")) {
+                System.out.print("And your food is...Deviled Eggs!!!\n");
+                System.out.print(Arrays.toString(deviledEggs));
+            } else if (choice.equals("Spinach Artichoke Dip")) {
+                System.out.print("And your food is... Spinach Artichoke Dip!!!\n");
+                System.out.print(Arrays.toString(spinachArtichokeDip));
+            } else if (choice.equals("Bruschetta")) {
+                System.out.print("And your food is... Bruschetta!!!\n");
+                System.out.print(Arrays.toString(bruschetta));
+            } else if (choice.equals("Stuffed Mushrooms")) {
+                System.out.print("And your food is... Stuffed Mushrooms!!!\n");
+                System.out.print(Arrays.toString(stuffedMushrooms));
+            } else if (choice.equals("Guacamole")) {
+                System.out.print("And your food is... Guacamole!!!\n");
+                System.out.print(Arrays.toString(guacamole));
+            } else if (choice.equals("Shrimp Cocktail")) {
+                System.out.print("And your food is... Shrimp Cocktail!!!\n");
+                System.out.print(Arrays.toString(shrimpCocktail));
+            } else if (choice.equals("Baked Brie")) {
+                System.out.print("And your food is... Baked Brie!!!\n");
+                System.out.print(Arrays.toString(bakedBrie));
+            } else if (choice.equals("Cucumber Bites")) {
+                System.out.print("And your food is... Cucumber Bites!!!\n");
+                System.out.print(Arrays.toString(cucumberBites));
+            } else if (choice.equals("Mini Meatballs")) {
+                System.out.print("And your food is... Mini Meatballs!!!\n");
+                System.out.print(Arrays.toString(miniMeatballs));
+            } else if (choice.equals("Spanakopita")) {
+                System.out.print("And your food is... Spanakopita!!!\n");
+                System.out.print(Arrays.toString(spanakopita));
+            } else if (choice.equals("Stuffed Peppers")) {
+                System.out.print("And your food is... Stuffed Peppers!!!\n");
+                System.out.print(Arrays.toString(stuffedPeppers));
+            } else if (choice.equals("Antipasto Platter")) {
+                System.out.print("And your food is... Antipasto Platter!!!\n");
+                System.out.print(Arrays.toString(antipastoPlatter));
+            } else if (choice.equals("Mango Salsa")) {
+                System.out.print("And your food is... Mango Salsa!!!\n");
+                System.out.print(Arrays.toString(mangoSalsa));
+            }  else if (choice.equals("Crostini with Ricotta and Honey")) {
+                System.out.print("And your food is... Crostini with Ricotta and Honey!!!\n");
+                System.out.print(Arrays.toString(crostiniWithRicottaAndHoney));
             }
         }
 
