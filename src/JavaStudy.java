@@ -28,7 +28,7 @@ public class JavaStudy {
                        3. Pour the wet ingredients into the bowl with the dry ingredients. Stir gently until just combined. The batter should be a bit lumpy. Over-mixing can lead to tough pancakes;
                        4. Heat a griddle or non-stick skillet over medium heat. Lightly grease with butter or oil;
                        5. Pour about 1/4 cup of batter onto the griddle or skillet for each pancake. Cook until bubbles form on the surface and the edges look set, about 2-3 minutes.
-                        Flip the pancake and cook for another 1-2 minutes, until golden brown and cooked through;
+                       Flip the pancake and cook for another 1-2 minutes, until golden brown and cooked through;
                        6. Serve the pancakes warm with your favorite toppings, such as butter, maple syrup, fresh fruit, whipped cream, or chocolate chips.
 
                        Tips:
