@@ -526,7 +526,7 @@ public class JavaStudy {
                 """};
 
         String[] spinachArtichokeDip = {"""
-                Here is how you make Spinach Artichoke Dip:
+                Here is how you make Spinach and Artichoke Dip:
                 
                 Ingredients:
                 
